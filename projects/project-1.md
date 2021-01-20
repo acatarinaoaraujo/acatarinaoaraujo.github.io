@@ -1,16 +1,16 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/Mario Bros.jpg
+title: Mario Jumpman 
+permalink: projects/mariojumpman
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-05-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - EZ
+  - Super Mario Bros
+summary: My team developed a simple game based on Mario Bros.
 ---
 
 <div class="ui small rounded images">
