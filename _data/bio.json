@@ -31,8 +31,6 @@
     {
       "name": "Software Engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
       ]
     },
     {
@@ -79,15 +77,14 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Maria Filó",
+      "position": "Saleswoman",
+      "website": "https://www.mariafilo.com.br/",
+      "startDate": "2016-03-01",
+      "endDate": "2018",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Sales, marketing, customer service, and organization of the store.",
       ]
     },
     {
