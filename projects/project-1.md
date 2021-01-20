@@ -19,18 +19,9 @@ summary: My team developed a simple game for ICS 111 based on the coolest video 
 </div>
 
 
+Why Mario?
+  I remember playing Mario for the first time when I was about 7 years old. Mario was the first game I have ever played. My brother, who is older than me, introduced me to Nintendo 64 Console at the year of 2004. We were behind in time compared to our American counterparts. At the decade of 1990-2000, the inflation in Brazil was exorbitant, and technological devices coming from other countries received huge taxes on top of it. The minimum wage at that time was 180,00 reais (equivalent to 33,64 dolars today) and only one video game cartridge costed a little over it. So, instead of buying a new cartridge, we exchanged them with friends.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
 You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
