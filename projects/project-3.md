@@ -13,7 +13,10 @@ labels:
 summary: A database application built for ICS 212 to control and manage clients’ account.
 ---
 
+
+  <div class="ui medium rounded images">
   <img class="ui image" src="../images/banking.png">
+  </div>
 
 
 
