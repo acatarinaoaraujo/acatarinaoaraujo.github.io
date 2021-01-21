@@ -13,7 +13,9 @@ labels:
 summary: A program made for ICS 211 that finds a solution to a Hexadecimal Sudoku problem.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/sudoku.png">
+<img class="ui medium right floated rounded image" src="../images/sudoku-page1.png">
+
+
 
 This program is a recursive strategy to find a solution for a hexadecimal sudoku problem.
 As you might know already, a Sudoku is a 9x9 grid with numbers from 1 to 9. However, in 
