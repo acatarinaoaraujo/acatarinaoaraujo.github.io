@@ -13,12 +13,17 @@ labels:
 summary: A program made for ICS 211 that finds a solution to a Hexadecimal Sudoku problem.
 ---
 
-<img class="ui medium right floated rounded image" src=".. /images/sudoku.png">
+<img class="ui medium right floated rounded image" src="../images/sudoku.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This program is a recursive strategy to find a solution for a hexadecimal sudoku problem.
+As you might know already, a Sudoku is a 9x9 grid with numbers from 1 to 9. However, in 
+this program we have a 16x16 grid with values starting from 0 to F. A Sudoku is correct 
+when the 16 rows and 16 columns in the grid has exactly one possible value, with a total 
+of 16 unique values. Each small grid must also not contain any duplicates. The problem 
+starts with some of the grid cells already filled with values. After the program fills the
+remaining cells, it will give a valid Sudoku. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Strategy to the solution: 
+If a value is accepted, we move the value in the cell. We must recursively try to find a solution 
+that fills the remaining cells. If the attempt is not successful, the program must replace the Sudoku
+grid with the old value. 
