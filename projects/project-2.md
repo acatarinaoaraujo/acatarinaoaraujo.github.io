@@ -17,7 +17,6 @@ summary: A program made for ICS 211 that finds a solution to a Hexadecimal Sudok
 
 <hr>
 
-<pre>
 This program is a recursive strategy to find a solution for a hexadecimal sudoku problem.
 As you might know already, a Sudoku is a 9x9 grid with numbers from 1 to 9. However, in 
 this program we have a 16x16 grid with values starting from 0 to F. 
@@ -31,7 +30,6 @@ Strategy to the solution:
 If a value is accepted, we move the value in the cell. We must recursively try to find a solution 
 that fills the remaining cells. If the attempt is not successful, the program must replace the Sudoku
 grid with the old value. 
-</pre>
 
 <hr>
 
