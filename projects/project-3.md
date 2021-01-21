@@ -13,7 +13,9 @@ labels:
 summary: A database application built for ICS 212 to control and manage clients’ account.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/banking.png">
+  <img class="ui image" src="../images/banking.png">
+
+
 
 Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
