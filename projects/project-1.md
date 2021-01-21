@@ -34,34 +34,38 @@ to use the tools we had to make the game work. The more tools we use, the better
 	We started by gathering the documentation for EZ and seeing all the methods available. Then, we applied the methods that we thought
 would be useful for our project. We wanted to keep the game simple, but very similar to the original game. We decided not to divide the 
 problems by person, but instead working together on the most important and essential aspects of the games first. After we had the functionality,
-it was time to look for interesting graphics for the characters, scenery, fonts, and sound effects. This part is entertaining, but takes some 
-time to find the perfect graphics for a game. 
+we started to work on the visual part of the game by finding pictures for the characters, scenery, and font themes. This part is entertaining, but
+takes some time to find the perfect graphics for a game. 
         
 
-Some methods used in the game:
+Some EZ methods used in the game:
 
 - pullToFront (): Pulls the given element to the front of the layer.
-We used this method for the bullet in order to make the game more realistic. 
+We used this method for the bullet. The bullet moves in front of the
+wall and scenery in a random speed. 
 
-- setMsg(java.lang.String m): Displays a text to the given parameter.
+- setMsg(String m): Displays a text to the given parameter.
 This method was used for the introduction and the end of the game.
 
 - wasKeyDown(char c): Checks if a key was pressed by the user at some point.
-Used to start the game.
+After the introduction a key must be pressed in order to start the game.
 
 - isPointInElement(int x, int y): Checks if the x and y coordinates are within of an element.
 This method was the most important method besides EZ.initialize(). To make this game function
 properly we had to check if the main character, Mario, had close contact with the obstacles (bullets). 
 
 - moveForward(double distance): Moves the element ahead by the given number (distance). 
-Used to move the seamless background.
+Used to move the seamless background in order to make the game more realistic. 
 
 - loop(): plays a song from the start of the game to the end by repeating the song multiple times during the game.
 
 	
 First-year ICS 111 students at the University of Hawaii at Manoa has been using EZ Graphics (a Java graphics library) since 2014.
-EZ aids students with no prior programming experience to successfully manipulate graphics. EZ was created by Dylan Kobayashi.
-To read more about the documentation visit the url: [EZ Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/).
+EZ aids students with no prior programming experience to manipulate graphics. EZ was created by Dylan Kobayashi.To read more about
+EZ visit the url: [EZ Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/).
+
+
+
 
 
 
