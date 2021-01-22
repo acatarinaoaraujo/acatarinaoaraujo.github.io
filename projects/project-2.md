@@ -39,7 +39,7 @@ the program must replace the Sudoku grid with the old value.
 <hr>
 
 
-  <div class="ui small rounded images">
+  <div class="ui small middle rounded images">
   <img class="ui image" src="../images/sudoku-page1.png">
   <img class="ui image" src="../images/sudoku-page2.png">
   <img class="ui image" src="../images/sudoku-page3.png">
