@@ -13,7 +13,6 @@ labels:
 summary: A program made for ICS 211 that finds a solution to a Hexadecimal Sudoku problem.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/sudoku-page1.png">
 
 <hr>
 
@@ -37,4 +36,11 @@ grid with the old value.
 </pre>
 
 <hr>
+
+
+  <div class="ui medium rounded images">
+  <img class="ui image" src="../images/sudoku-page1.png">
+  <img class="ui image" src="../images/sudoku-page2.png">
+  <img class="ui image" src="../images/sudoku-page3.png">
+  </div>
 
