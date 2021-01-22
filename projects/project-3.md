@@ -12,11 +12,6 @@ labels:
   - Linked List
 summary: A database application built for ICS 212 to control and manage clients’ account.
 ---
-
-
-  <div class="ui medium rounded images">
-  <img class="ui image" src="../images/banking.png">
-  </div>
   
  The Bank Record Database program was developed using C and C++ while I was enrolled in ICS 212 (Program Structure).
  The main purpose of this project is to aid the bank clerk in controlling and managing the clients’ bank account. 
@@ -29,6 +24,11 @@ it taught me tracing, which is essential to be a successful programmer in C and 
 not have well-written pseudocode or at least a brief written scratch paper with the description of the steps needed. Despite the 
 frustration of dealing with pointers, I have learned a lot with this project, and I expect to use this experience to build more 
 sophisticated projects in the future.
+
+
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/banking.png">
+  </div>
 
 
 
