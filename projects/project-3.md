@@ -29,10 +29,10 @@ summary: A database application built for ICS 212 to control and manage clientsâ
 This project taught me about passing by reference instead of value, double-pointer,
 and Singly Linked List. But most importantly, it taught me tracing, which is essential
 to be a successful programmer in C and C++. A Linked List can be very confusing if we do
-not have well-written pseudocode or at least a brief written scratch paper with the 
-description of the steps needed. Despite the frustration of dealing with pointers,
-I have learned a lot with this project, and I expect to use this experience to build
-more sophisticated projects in the future.
+not have well-written pseudocode or at least a scratch paper with the description of the
+steps needed. Despite the frustration of dealing with pointers, I have learned a lot with
+this project, and I expect to use this experience to build more sophisticated projects in
+the future.
 
 *Source code to be released soon.*
 
