@@ -44,4 +44,6 @@ the program must replace the Sudoku grid with the old value.
   <img class="ui image" src="../images/sudoku-page2.png">
   <img class="ui image" src="../images/sudoku-page3.png">
   </div>
+  
+  *Source code to be released soon.*
 
