@@ -20,14 +20,18 @@ summary: My team developed a simple game for ICS 111 based on the coolest video 
 
 
 
-Why Mario? I remember playing Mario for the first time when I was about 7 years old. Mario was the first game I have ever played. 
+## Why Mario? 
+
+I remember playing Mario for the first time when I was about 7 years old. Mario was the first game I have ever played. 
 My brother, who is older than me, introduced me to Nintendo 64 Console at the year of 2004. We were behind in time 
 compared to our American counterparts. At the decade of 1990-2000, the inflation in Brazil was exorbitant, and technological
 devices coming from other countries received huge taxes on top of it. The minimum wage at that time was 180,00 reais (equivalent
 to 33,64 dollars) and only one video game cartridge costed a little over it. So, instead of buying a new cartridge, we exchanged
 them with friends.
 
-Team Work: When Professor Jason Leigh talked about the final project for ICS 111, I immediately thought about making a game based on Mario.
+## Team Work
+
+When Professor Jason Leigh talked about the final project for ICS 111, I immediately thought about making a game based on Mario.
 However, I did not have a group yet, I needed to invite two classmates to participate on this project and convince them about Mario.
 Fortunately, my team liked my idea, and Professor Leigh gave us full autonomy for this project. My team and I began to think about how
 to use the tools we had to make the game work. The more tools we use, the better it is for us in terms of practice and knowledge.  
@@ -38,7 +42,7 @@ we started to work on the visual part of the game by finding pictures for the ch
 takes some time to find the perfect graphics for a game. 
         
 
-Some EZ methods used in the game:
+## Some EZ methods used in the game:
 
 - pullToFront (): Pulls the given element to the front of the layer.
 We used this method for the bullet. The bullet moves in front of the
@@ -64,6 +68,7 @@ First-year ICS 111 students at the University of Hawaii at Manoa has been using 
 EZ aids students with no prior programming experience to manipulate graphics. EZ was created by Dylan Kobayashi.To read more about
 EZ visit the url: [EZ Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/).
 
+*Source code to be released soon.*
 
 
 
