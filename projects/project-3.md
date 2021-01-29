@@ -21,6 +21,7 @@ summary: A database application built for ICS 212 to control and manage clientsâ
  deleting a given record, and printing all the records in the database. Besides that, the program saves the records into a
  text file after the user exits from it. In this way, the records are protected and can be accessible again when the user re-enter.
  
+ ##Lessons Learned:
 This project taught me about passing by reference instead of value, double-pointer, and Singly Linked List. But most importantly, 
 it taught me tracing, which is essential to be a successful programmer in C and C++. A Linked List can be very confusing if we do
 not have well-written pseudocode or at least a brief written scratch paper with the description of the steps needed. Despite the 
