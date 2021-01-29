@@ -36,7 +36,7 @@ If a value is accepted, we move the value in the cell. If the attempt is not
 successful, the program must replace the Sudoku grid with the old value. We 
 do the same process for all the remaining cells.
 
-  <div class="ui medium rounded images">
+  <div class="ui small rounded images">
   <img class="ui image" src="../images/sudoku-page1.png">
   <img class="ui image" src="../images/sudoku-page2.png">
   <img class="ui image" src="../images/sudoku-page3.png">
