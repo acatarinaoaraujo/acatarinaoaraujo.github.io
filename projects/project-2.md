@@ -36,6 +36,12 @@ If a value is accepted, we move the value in the cell. If the attempt is not
 successful, the program must replace the Sudoku grid with the old value. We 
 do the same process for all the remaining cells.
 
+  <div class="ui medium rounded images">
+  <img class="ui image" src="../images/sudoku-page1.png">
+  <img class="ui image" src="../images/sudoku-page2.png">
+  <img class="ui image" src="../images/sudoku-page3.png">
+  </div>
+
 ## Lessons Learn From this Project
 The most trivial part of this project was the usage of nested for loops
 to minutiously examine the values to be set in the empty cells. Nested 
@@ -43,11 +49,6 @@ for loops can be difficul to trace when we are dealing with many of them.
 Another important part was to test the program using JUnit. Test cases 
 were created To make sure it was working the way it should.
 
-  <div class="ui small rounded images">
-  <img class="ui image" src="../images/sudoku-page1.png">
-  <img class="ui image" src="../images/sudoku-page2.png">
-  <img class="ui image" src="../images/sudoku-page3.png">
-  </div>
   
   *Source code to be released soon.*
 
