@@ -12,8 +12,6 @@ labels:
   - Linked List
 summary: A database application built for ICS 212 to control and manage clients’ account.
 ---
-
-<img class="ui medium right floated rounded image" src="../images/banking.png">
   
  The Bank Record Database program was developed using C and C++ while I was enrolled
  in ICS 212 (Program Structure).The main purpose of this project is to aid the bank 
