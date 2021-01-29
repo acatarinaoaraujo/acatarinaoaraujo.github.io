@@ -12,7 +12,9 @@ labels:
   - Linked List
 summary: A database application built for ICS 212 to control and manage clients’ account.
 ---
-  
+
+ <img class="ui medium right floated rounded image" src="../images/banking.png">
+ 
  The Bank Record Database program was developed using C and C++ while I was enrolled
  in ICS 212 (Program Structure).The main purpose of this project is to aid the bank 
  clerk in controlling and managing the clients’ bank account. This program allows adding
@@ -22,7 +24,7 @@ summary: A database application built for ICS 212 to control and manage clients�
  from it. In this way, the records are protected and can be accessible again when the
  user re-enter.
  
- ### Lessons Learned:
+***Lessons Learned:***
  
 This project taught me about passing by reference instead of value, double-pointer,
 and Singly Linked List. But most importantly, it taught me tracing, which is essential
