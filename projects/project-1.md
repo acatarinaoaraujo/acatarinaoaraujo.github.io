@@ -36,6 +36,7 @@ However, I did not have a group yet, I needed to invite two classmates to partic
 Fortunately, my team liked my idea, and Professor Leigh gave us full autonomy for this project, as long as we used EZ Library.
 My team and I began to think about how to use the tools we had to make the game work. The more tools we use, the better it is 
 for us in terms of gaining practice.
+
 We started by gathering the documentation for EZ and seeing all the methods available. Then, we applied the methods that we thought
 would be useful for our project, such as *wasKeyDown(char c)*. We wanted to keep the game simple, but very similar to the original game, 
 including the graphics and the main functions. We decided not to not assign the problems to each member in the group, but instead
