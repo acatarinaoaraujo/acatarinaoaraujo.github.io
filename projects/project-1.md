@@ -24,10 +24,6 @@ that I would be creating games?! Looking now, it is kind funny that I ended up m
 partners. It is one of those things in life that we experience, and we think that we will never see them again, but they 
 return in another form.
 
-<div class="ui small rounded images centered">
-  <img class="ui image" src="../images/MarioBros3.png">
-  <img class="ui image" src="../images/MarioBros2.png">
-</div>
 
 ### Team Work
 
@@ -43,6 +39,13 @@ including the graphics and the main functions. We decided not to not assign the 
 working together on the most important aspects of the games first. After we had the functionality, we started to work on the visual 
 part of the game by finding pictures for the characters, scenery, and font themes. This part is entertaining, but takes some time to 
 find the perfect graphics for a game.
+
+<p>First image below shows Mario trying to get all the coins.
+The second image shows mario after he was hit but the bullet. GAME OVER!</p>
+<div class="ui small rounded images centered">
+  <img class="ui image" src="../images/MarioBros3.png">
+  <img class="ui image" src="../images/MarioBros2.png">
+</div>
         
 
 ### Some EZ methods used in the game:
