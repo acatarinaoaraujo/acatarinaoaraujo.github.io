@@ -15,7 +15,7 @@ summary: My team developed a simple game for ICS 111 based on the coolest video 
 ---
 
 
-## Why Mario? 
+### Why Mario? 
 
 I remember playing Mario for the first time when I was about 7 years old. Mario is the first game I have ever played. 
 My brother, who is older than me, introduced me to Nintendo 64 Console somewhere around 2004. I didn't know much about
@@ -24,12 +24,12 @@ that I would be creating games?! Looking now, it is kind funny that I ended up m
 partners. It is one of those things in life that we experience, and we think that we will never see them again, but they 
 return in another form.
 
-<div class="ui medium rounded images">
+<div class="ui small rounded images centered">
   <img class="ui image" src="../images/MarioBros3.png">
-  <img right class="ui image" src="../images/MarioBros2.png">
+  <img class="ui image" src="../images/MarioBros2.png">
 </div>
 
-## Team Work
+### Team Work
 
 When Professor Jason Leigh talked about the final project for ICS 111, I immediately thought about making a game based on Mario. 
 However, I did not have a group yet, I needed to invite two classmates to participate on this project and convince them about Mario.
@@ -44,7 +44,7 @@ part of the game by finding pictures for the characters, scenery, and font theme
 find the perfect graphics for a game.
         
 
-## Some EZ methods used in the game:
+### Some EZ methods used in the game:
 
 - *pullToFront ()*: Pulls the given element to the front of the layer.
 We used this method for the bullet. The bullet moves in front of the
