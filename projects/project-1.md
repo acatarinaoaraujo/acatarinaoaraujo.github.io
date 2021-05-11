@@ -26,7 +26,7 @@ return in another form.
 
 <div class="ui medium rounded images">
   <img class="ui image" src="../images/MarioBros3.png">
-  <img class="ui image" src="../images/MarioBros2.png">
+  <img right class="ui image" src="../images/MarioBros2.png">
 </div>
 
 ## Team Work
