@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Ana Catarina Araujo",
+    "name": "Ana Catarina Oliveira Araújo",
     "label": "Student",
     "picture": "https://acatarinaoaraujo.github.io/images/profilePicture.jpg",
     "email": "acoa@hawaii.edu",
@@ -34,12 +34,17 @@
       ]
     },
     {
-      "name": "Data Science",
+      "name": "Web Development",
       "keywords": [
       ]
     },
     {
-      "name": "Criminal Justice",
+      "name": "Sustainability",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Forensic Science",
       "keywords": [
       ]
     }
@@ -53,7 +58,9 @@
         "C++",
         "Java",
         "Javascript",
-        "Portuguese (fluent)",
+        "Semantic UI React",
+        "Meteor",
+        "Portuguese",
         "Italian (basic)"
       ]
     },
