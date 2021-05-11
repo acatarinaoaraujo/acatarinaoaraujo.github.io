@@ -40,8 +40,9 @@ working together on the most important aspects of the games first. After we had 
 part of the game by finding pictures for the characters, scenery, and font themes. This part is entertaining, but takes some time to 
 find the perfect graphics for a game.
 
-<p>First image below shows Mario trying to get all the coins.
-The second image shows mario after he was hit but the bullet. GAME OVER!</p>
+First image below shows Mario trying to get all the coins.
+
+The second image shows mario after he was hit but the bullet. GAME OVER!
 <div class="ui small rounded images centered">
   <img class="ui image" src="../images/MarioBros3.png">
   <img class="ui image" src="../images/MarioBros2.png">
