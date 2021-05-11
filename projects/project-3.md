@@ -19,10 +19,12 @@ summary: A database application built for ICS 212 to control and manage clientsâ
  (Program Structure).The main purpose of this project is to aid the bank clerk in controlling 
  and managing the clientsâ€™ bank account. This program allows adding a new record into the database,
  finding a specific record (in which account number is required), deleting a given record, and 
- printing all the records in the database. Besides that, the program saves the records into a 
- text file after the user exits from it. In this way, the records are protected and can be accessible
- again when the user re-enter. It does that by writing all the records saved in the system into a file,
- and then reading the file records to save them back in the database. 
+ printing all the records in the database. 
+ 
+ Besides that, the program saves the records into a text file after the user exits from it. In this way,
+ the records are protected and can be accessible again when the user re-enter. It does that by writing 
+ all the records saved in the system into a file, and then reading the file records to save them back in
+ the database. 
  
 ***Lessons Learned:***
  
