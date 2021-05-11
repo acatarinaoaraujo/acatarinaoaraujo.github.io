@@ -26,7 +26,7 @@ summary: A database application built for ICS 212 to control and manage clientsâ
  all the records saved in the system into a file, and then reading the file records to save them back in
  the database. 
  
-***Lessons Learned:***
+### Lessons Learned
  
 This project taught me about passing by reference (address), double-pointer,
 and *Singly Linked List*. But most importantly, it taught me tracing, which is essential
@@ -38,3 +38,35 @@ not have well-written pseudocode or at least a scratch paper with the descriptio
 steps needed. Despite the frustration of dealing with pointers, I have learned a lot with
 this project, and I expect to use this experience to build more sophisticated projects in
 the future.
+
+### Passing By Reference Example
+
+```
+#include <stdio.h>
+void swapValues(int *a, int *b);                 //function prototype 
+
+int main()
+{
+    int value1 = 2, value2 = 8;
+    
+    swap( &value1, &value2);                     //address of value1 and value2 being passed
+
+    printf("First Value : %d\n", value1);
+    printf("Second Value : %d", value2);
+    return 1;
+}
+
+void swapValues(int* a, int* b)
+{
+    /* Store the value of a into temp.
+    Set the value of b into a, then set
+    temp (old a) to b */
+    
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+```
+
+
