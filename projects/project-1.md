@@ -10,24 +10,24 @@ labels:
   - Java
   - EZ
   - Super Mario Bros
+  - ICS 111
 summary: My team developed a simple game for ICS 111 based on the coolest video game character in world, Mario.
 ---
-
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/MarioBros3.png">
-  <img class="ui image" src="../images/MarioBros2.png">
-</div>
-
 
 
 ## Why Mario? 
 
-I remember playing Mario for the first time when I was about 7 years old. Mario was the first game I have ever played. 
-My brother, who is older than me, introduced me to Nintendo 64 Console at the year of 2004. We were behind in time 
-compared to our American counterparts. At the decade of 1990-2000, the inflation in Brazil was exorbitant, and technological
-devices coming from other countries received huge taxes on top of it. The minimum wage at that time was 180,00 reais (equivalent
-to 33,64 dollars) and only one video game cartridge costed a little over it. So, instead of buying a new cartridge, we exchanged
-them with friends.
+I remember playing Mario for the first time when I was about 7 years old. Mario is the first game I have ever played. 
+My brother, who is older than me, introduced me to Nintendo 64 Console somewhere around 2004. I didn't know much about
+video games at the time, and even after that, I never played any games (except Grand Theft Auto). How could I ever imagine
+that I would be creating games?! Looking now, it is kind funny that I ended up making this game about Mario with my group
+partners. It is one of those things in life that we experience, and we think that we will never see them again, but they 
+return in another form.
+
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/MarioBros3.png">
+  <img class="ui image" src="../images/MarioBros2.png">
+</div>
 
 ## Team Work
 
