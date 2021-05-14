@@ -24,7 +24,7 @@ students to show both positive and negative points of their university and their
  in the areas of business, health, economics, technology and marketing, among others. Knowing what past students struggled to learn is a step ahead 
  for any student.
  
- ### List & Review
+ ### Browse & Review
  Two of the most important features of this project are listing the professors and courses available, and reviewing them.
  Below there are two images demonstrating those features, one display the courses where it is possible to see ICS courses,
  and the other shows an overview of Professor Carleton Moore and pior reviews made by his students.
