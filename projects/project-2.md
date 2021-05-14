@@ -33,13 +33,13 @@ those who are still thinking of taking a particular course.*
 
 Within the Browse Courses Page, students will be able to select a course and then it will display a page that displays the course information and reviews.
 
-<img src="../images/browse_course.jpeg">
+<img class="ui image medium" src="../images/browse_course.jpeg">
 
 ### Professor Review Page
 
 Student can write the review for a professor and rate the professor on this page. Below the Write a Review section is the previous reviews of the professor. 
 
-<img src="../images/certain_professor.jpeg">
+<img class="ui image medium" src="../images/certain_professor.jpeg">
 
 ### Collaboration 
 
