@@ -14,9 +14,8 @@ summary: A web application which works as a tool for reviewing instructors and c
 ---
 
 <hr>
-<pre>
-
 ### Overview
+<pre>
  
 UH Class Critics is a service that allows students from the University of Hawaii at Manoa to share their experiences taking different college
 courses and professors and reviewing them. Students can evaluate their teachers and courses based on criteria they care about. The tool allows
@@ -30,7 +29,6 @@ students to show both positive and negative points of their university and their
 *Why Should We Review Professors and Their Courses?
 A teaching strategy must always be subject to evaluation, both to improve the work for those already in the classroom and to promote the entry of 
 those who are still thinking of taking a particular course.*
-
 
 </pre>
 <hr>
