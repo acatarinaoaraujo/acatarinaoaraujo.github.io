@@ -35,13 +35,15 @@ our team members, and for the administrator level, a page to insert new courses 
 
 ### What I Learned From This Experience
 
-One of the things I enjoyed about this project was learning about Agile Project Management. I have found this method of management to be immensively useful, flexible, and easy to maintain. Futhermore, by setting tasks for each milestone, our group members were aware of the things we had to do. If something did not
-work properly as we expect, we could adapt the issue. We could also move tasks around, decide one task should be done before the order according to the groups needs.
+One of the things I enjoyed about this project was learning about Agile Project Management. I have found this method of management to 
+be immensively useful, flexible, and easy to maintain. Futhermore, by setting tasks for each milestone, our group members were aware of
+the things we had to do. If something did not work properly as we expect, we could adapt the issue. We could also move tasks around, decide
+one task should be done before the order according to the groups needs.
 
-Overall, I learned how to communicate better with others in the group, how to divide larger tasks into smaller ones, maintain control of changes and not lose progress by committing changes more often on GitHub. And of course, how to develop an website which can load data from a database, how props can be extremely useful when using database, record new data into a database, experience using underscore to filter, map and sort names, etc.
-
-
- ### Browse/Review
+Overall, I learned how to communicate better with others in the group, how to divide larger tasks into smaller ones, maintain control of 
+changes and not lose progress by committing changes more often on GitHub. And of course, how to develop an website which can load data from 
+a database, how props can be extremely useful when using database, record new data into a database, experience using underscore to filter, 
+map and sort names, etc.
  
  Two of the most important features of this project are listing the professors and courses available, and reviewing them.
  Below there are two images demonstrating those features, one display the courses where it is possible to see ICS courses,
