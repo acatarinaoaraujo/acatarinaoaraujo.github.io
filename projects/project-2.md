@@ -23,8 +23,15 @@ students to show both positive and negative points of their university and their
  when the student has to choose and plan carefully the courses he will take. In UH Class Critics, it is possible to include information from courses 
  in the areas of business, health, economics, technology and marketing, among others. Knowing what past students struggled to learn is a step ahead 
  for any student.
- 
- ### Browse/Review
+
+### Collaboration 
+
+In this website application I have worked on the Professor's page which displays all the professors from the database. I created search bars
+for the courses' page and professors' page allowing users to find quickly what they are looking for. From the overview pages, I have made a
+section where students can write reviews and see reviews from other students as well. Finally, I also created a page with information about 
+our team members, and for the administrator level, a page to insert new courses at database.
+
+### Browse/Review
  
  Two of the most important features of this project are listing the professors and courses available, and reviewing them.
  Below there are two images demonstrating those features, one display the courses where it is possible to see ICS courses,
@@ -37,13 +44,6 @@ students to show both positive and negative points of their university and their
 - Professor Review Page
 
 <img class="ui image huge" src="../images/certain_professor.jpeg">
-
-### Collaboration 
-
-In this website application I have worked on the Professor's page which displays all the professors from the database. I created search bars
-for the courses' page and professors' page allowing users to find quickly what they are looking for. From the overview pages, I have made a
-section where students can write reviews and see reviews from other students as well. Finally, I also created a page with information about 
-our team members, and for the administrator level, a page to insert new courses at database.
 
 ### What I Learned From This Experience
 
