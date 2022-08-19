@@ -17,7 +17,8 @@ labels:
 ### Semantic UI
 There are many advantages in using it instead of just raw HTML and CSS. So far, I have found it to be helpful and fairly easy to learn and apply. It could be stressful if you are trying to learn everything at once as there are many possible usages. In this case, I think it is best to study a little every day to reinforce what you have learned through practice.
 
-<img class="ui tiny left circular floated image" src="../images/semantic.png"> By using the Semantic UI, it is possible to create modern layouts. The use of the framework provides a variety of components, full of features such as adding a “centered” container, columns or rows, and icons that can be formatted with different sizes and colors. It is not possible to have the same result using only HTML and CSS in such a short time. Even though we would still be able to create websites, they would not look as modern and sophisticated. Indeed, it would look like a prehistoric website.
+<img width="400px" class="rounded float-start pe-4" src="../img/essays/semantic.png">
+By using the Semantic UI, it is possible to create modern layouts. The use of the framework provides a variety of components, full of features such as adding a “centered” container, columns or rows, and icons that can be formatted with different sizes and colors. It is not possible to have the same result using only HTML and CSS in such a short time. Even though we would still be able to create websites, they would not look as modern and sophisticated. Indeed, it would look like a prehistoric website.
 
 Another advantage of Semantic UI is the documentation. It has well-organized documentation and guides on how to start using it, which can be accessed through the link
 [here](https://semantic-ui.com/).
@@ -34,7 +35,7 @@ developed from scratch. Projects created from scratch take a longer time than th
 functionalities. Thus, saving time and effort. For companies saving time, effort and money is important, for this reason, developers who 
 know how to use UI frameworks are ahead in the job market compared with developers who do not know.
 
-<img class="ui medium middle circular image" src="../images/uiframeworks.jpeg">
+<img width="400px" class="rounded float-start pe-4" src="../img/essays/uiframeworks.jpeg">
 *Image from hackernoon.com*
 
 UI frameworks use natural language, which undoubtedly makes the code more readable and easier to understand. It is unlikely that we will 

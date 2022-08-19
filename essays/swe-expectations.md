@@ -11,7 +11,7 @@ labels:
   - Computer Science
 ---
 
-<img class="ui medium left floated image" src="../images/womentech.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/essays/womentech.png">
 
 Choosing which career to follow is always an important and scary decision, which
 requires a lot of attention. The area of technology attracted a lot of attention
