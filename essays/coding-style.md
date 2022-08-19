@@ -26,10 +26,10 @@ to analyze calmly and with a lot of patience to understand an algorithm, even if
 Now imagine a system with hundreds of them. Development without indentation is almost impossible.
 
 #### BAD
-<img width="400px" class="img-fluid"  src="../img/essays/codestyle2.png">
+<img width="600px" class="img-fluid"  src="../img/essays/codestyle2.png">
 
 #### GOOD
-<img width="400px" class="img-fluid"  src="../img/essays/codestyle1.png">
+<img width="600px" class="img-fluid"  src="../img/essays/codestyle1.png">
 *Code from in-class WOD. "Five problems every software engineer should be able to solve (Part 3)", ICS 314*
 
 We see that the same code is much more readable, and clean than the first one. 

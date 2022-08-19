@@ -29,7 +29,7 @@ value, something that is not possible in Java.
 
 ###  The Advantages of Learning JavaScript
 
-<img width="200px" class="rounded float-start pe-4" src="../img/essays/jsposter.jpg">
+<img width="260px" class="rounded float-start pe-4" src="../img/essays/jsposter.jpg">
 
 JavaScript creates visual effects with much ease and rapidness than Java and C/C++. The JavaScript language
 uses a more human-language syntax, thus making it an easier language to learn and remember. I believe it is
