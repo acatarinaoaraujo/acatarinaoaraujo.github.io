@@ -4,6 +4,7 @@ type: essay
 title: How to Ask Smart Questions
 # All dates must be YYYY-MM-DD format!
 date: 2021-01-28
+published: true
 labels:
   - Software Engineering
   - Learning
