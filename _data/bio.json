@@ -1,118 +1,144 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Ana Catarina Oliveira Araújo",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://acatarinaoaraujo.github.io/images/profilePicture.jpg",
+    "email": "acoa@hawaii.edu",
+    "phone": "808-352-9511",
+    "website": "https://acatarinaoaraujo.github.io",
+    "summary": "I am pursuing a Bachelor of Science degree in Computer Science in the Department of Information & Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
+    "location": {
+      "address": "",
+      "postalCode": "96712",
+      "city": "Haleiwa",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "acatarinaoaraujo",
+        "url": "http://github.com/acatarinaoaraujo"
+      },
+      {
+        "network": "leetcode",
+        "username": "acoa",
+        "url": "https://leetcode.com/acoa/"
+      },
+      {
+        "network": "hackerrank",
+        "username": "acoa_",
+        "url": "https://www.hackerrank.com/acoa_"
+      },
+      {
+        "network": "linkedin",
+        "username": "acatarinaoaraujo",
+        "url": "http://linkedin.com/in/acatarinaoaraujo"
+      }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    {
+      "name": "Software Engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Cognitive Science",
+      "keywords": [
+      ]
+    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "Python",
+        "MySQL",
+        "Semantic UI React",
+        "CSS",
+        "Portuguese"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "MacOS",
+        "React", 
+        "Meteor",
+        "Eclipse",
+        "PyCharm",
+        "IntelliJ IDEA",
+        "Data Spell",
+        "Conda",
+        "Jupyter Notebook",
+        "Ubuntu",
+        "Virtual Box",
+        "Docker",
+        "Git/GitHub"
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2022)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2019-01-12",
       "endDate": "Present",
+      "gpa": "3.43",
       "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "ICS 111 - Introduction to Computer Science I (Java Programming)",
+        "ICS 211 - Introduction to Computer Science II (Data Structures)",
+        "ICS 212 - Program Structure",
+        "ICS 141 - Discrete Mathematics I",
+        "ICS 241 - Discrete Mathematics II",
+        "ICS 311 - Algorithms",
+        "ICS 312 - Machine-Level and Systems Programming",
+        "ICS 314 - Software Engineering I",
+        "ICS 321 - Database Systems I",
+        "ICS 332 - Operating Systems",
+        "ICS 414 - Software Engineering II",
+        "ICS 419 - Science, Psychology and Philosophy of Systems Design",
+        "ICS 464 - Human Computer Interaction I",
+        "ICS 434 - Data Science Fundamentals (Spring 2022)",
+        "ICS 466 - Design for Mobile Devices (Spring 2022)",
+        "ICS 451 - Data Networks (Spring 2022)",
+        
+        
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "Fall 2021",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Students with a 3.5 GPA or above in a semester with no grade of F or W."
     }
   ],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
