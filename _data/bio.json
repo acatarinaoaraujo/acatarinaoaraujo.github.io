@@ -6,7 +6,7 @@
     "email": "acoa@hawaii.edu",
     "phone": "808-352-9511",
     "website": "https://acatarinaoaraujo.github.io",
-    "summary": "I am pursuing a Bachelor of Science degree in Computer Science in the Department of Information & Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
+    "summary": "I am pursuing a Master of Science degree in Computer Science in the Department of Information & Computer Sciences at the University of Hawaii. ",
     "location": {
       "address": "",
       "postalCode": "96712",
@@ -19,16 +19,6 @@
         "network": "github",
         "username": "acatarinaoaraujo",
         "url": "http://github.com/acatarinaoaraujo"
-      },
-      {
-        "network": "fire",
-        "username": "acoa",
-        "url": "https://leetcode.com/acoa/"
-      },
-      {
-        "network": "hackerrank",
-        "username": "acoa_",
-        "url": "https://www.hackerrank.com/acoa_"
       },
       {
         "network": "linkedin",
@@ -49,19 +39,19 @@
       ]
     },
     {
-      "name": "Human-Computer Interaction",
+      "name": "Mobile Development",
       "keywords": [
       ]
     },
     {
-      "name": "Cognitive Science",
+      "name": "Human-Computer Interaction",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "C",
@@ -69,10 +59,21 @@
         "Java",
         "Javascript",
         "Python",
-        "MySQL",
-        "Semantic UI React",
+        "SQL",
         "CSS",
+        "Swift",
+        "Dart",
         "Portuguese"
+      ]
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "level": "",
+      "keywords": [
+        "React",
+        "Meteor",
+        "Semantic UI",
+        "Flutter"
       ]
     },
     {
@@ -80,30 +81,30 @@
       "level": "",
       "keywords": [
         "Windows",
-        "Linux",
         "MacOS",
-        "React", 
         "Meteor",
         "Eclipse",
         "PyCharm",
         "IntelliJ IDEA",
         "Data Spell",
-        "Conda",
         "Jupyter Notebook",
         "Ubuntu",
         "Virtual Box",
         "Docker",
-        "Git/GitHub"
+        "Git/GitHub",
+        "Xcode",
+        "Android Studio",
+        "Visual Studio Code"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2022)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2019-01-12",
-      "endDate": "Present",
+      "endDate": "2022-05-12",
       "gpa": "3.43",
       "courses": [
         "ICS 111 - Introduction to Computer Science I (Java Programming)",
@@ -119,11 +120,22 @@
         "ICS 414 - Software Engineering II",
         "ICS 419 - Science, Psychology and Philosophy of Systems Design",
         "ICS 464 - Human Computer Interaction I",
-        "ICS 434 - Data Science Fundamentals (Spring 2022)",
-        "ICS 466 - Design for Mobile Devices (Spring 2022)",
-        "ICS 451 - Data Networks (Spring 2022)",
-        
-        
+        "ICS 434 - Data Science Fundamentals",
+        "ICS 466 - Design for Mobile Devices",
+        "ICS 451 - Data Networks",
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+        "ICS 661 - Advanced Artificial Intelligence (Fall 2022)",
+        "ICS 691D - Human-Centered Artificial Intelligence (Fall 2022)",
+        "ICS 691E - Software Quality Assurance (Fall 2022)",
       ]
     }
   ],
