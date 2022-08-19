@@ -1,54 +1,51 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: Lessons from Software Engineering II
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2021-12-10
 published: true
 labels:
-  - Engineering
+  - Software Engineering
+  - Meteor
+  - Javascript
+  - React
+  - Agile Project Management
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="300px" class="rounded float-start pe-4" src="https://sfmagazine.com/wp-content/uploads/08_2019_tech_practices-655x368.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+In ICS 414 I experienced working with a large number of students willing to learn and improve their skills. 
+It taugh me how to work with other people, how to communicate with the group properly, and share ideas for the project we created.
+But I did not just learned about web/mobile application development in ICS 414, but also about all of the approaches needed to be effective
+in software engineering. Agile Project Management and Testing were two of the most intriguing topics I learnt. Although I learned it before in ICS 314,
+it is in ICS 414 that we spent more time working on the project and using those helpful approaches.
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+#### What is Agile Project Management?
+Agile project management is about more than simply speed; it's also about project integration and adaptability. 
+It's useful for making last-minute adjustments to the plan, such as shifting priorities, delaying activities if needed,
+or altering project features. It is a lightweight solution when compared to traditional project management. 
+In other words, the entire project is broken down into smaller chunks to make it easier to make changes without affecting the project's other components.
+That's the method we used for our project while also using GitHub to report our progress, requirements, and project ideas. Along the semester we changed our 
+ideas while trying to improve the project, and fulfilling the client's request.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+#### Why The Traditional Methods Are Less Efficient
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+In a conventional project management, there is a period of planning prior to the project's implementation.
+It's the point at which all of the specs are finalized. The project's qualities cannot be readily adjusted.
+Traditional approaches make it possible to deliver a project just once due to the way they are planned.
+That is, just one portion of the job is completed at a time, and everything is gathered and submitted in the end.
 
-Here's what I think: the difficult things will always be difficult.
+In agile management, however, only the basics are decided at the beginning, and the project is defined over time, 
+in an iterative way, there is an incentive for team collaboration as well. The characteristics of the final project
+can be changed, if necessary, at any point in its execution without too much bureaucracy. Agile methods perform several
+tasks at the same time, each person focus on an issue. Thus, the small issues can be approved throughout the execution of 
+the project, so that everything is in good by the deadline.
 
-## In the context of programming
+#### AENEAS PROJECT (ICS 414, Fall 2021)
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+- [GitHub Page](https://runtime-terrorz.github.io/)
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+- [Deployment](https://runtime-terror.xyz/)
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+- [Source Code](https://github.com/Runtime-Terrorz/HOME-Project-v2)
