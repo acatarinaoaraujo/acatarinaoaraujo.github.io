@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/buyfromher.png
+image: img/projects/mobile/buyfromher.png
 title: Buy From HER 
 permalink: projects/buyfromHER
 # All dates must be YYYY-MM-DD format!
@@ -28,7 +28,7 @@ and improve the income distribution in the neighborhood/region.
 ### Methodology
 This project was carried out using the Top-Down approach to achieve its goals and objectives, while it also includes conducting research and gathering information to understand the needs of users to get the first ideas (insights).
 
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype1.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype1.png">
 
 ### Differential Requirements 
 - Seller has the option to not accept returns, as long as the seller informs this return policy prior to purchase.
@@ -36,10 +36,10 @@ This project was carried out using the Top-Down approach to achieve its goals an
 - Prioritize business with higher customer reviews and quality products over popularity only.
 - All the stores must pass though a process of verification and authentication of the products/services to avoid possible scams.
 
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype2.png">
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype3.png">
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype4.png">
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype5.png">
- <img width="700px" class="ui centered floated rounded image" src="../images/prototype6.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype2.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype3.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype4.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype5.png">
+<img width="700px" class="img-fluid"  src="../img/projects/mobile/prototype6.png">
 
 
