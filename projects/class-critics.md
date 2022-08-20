@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/class-critics.png
+image: img/projects/web/class-critics.png
 title: Class Critics
 permalink: projects/class-critics
 # All dates must be YYYY-MM-DD format!
