@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Mario Bros.jpg
+image: img/projects/web/Mario Bros.jpg
 title: Mario Jumpman 
 permalink: projects/mariojumpman
 # All dates must be YYYY-MM-DD format!
@@ -42,11 +42,12 @@ find the perfect graphics for a game.
 
 *First image below shows Mario trying to get all the coins.
 The second image shows mario after he was hit but the bullet. GAME OVER!*
-  <img class="ui centered medium image" src="../images/MarioBros3.png">
-  <img class="ui centered medium image" src="../images/MarioBros2.png">
+
+<div class="text-center p-4">
+  <img width="300px" src="../img/projects/web/MarioBros3.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projects/web/MarioBros2.png" class="img-thumbnail" >
 </div>
         
-
 ### Some EZ methods used in the game:
 
 - *pullToFront ()*: Pulls the given element to the front of the layer.
