@@ -5,7 +5,7 @@ image: img/projects/mobile/size-calculator-icon.png
 title: Size Estimator 
 permalink: projects/size-estimator
 # All dates must be YYYY-MM-DD format!
-date: 2022-07-24
+date: 2022-07-06
 published: true
 labels:
   - Swift 5
