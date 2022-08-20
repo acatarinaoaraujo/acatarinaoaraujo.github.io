@@ -6,6 +6,7 @@ title: Mario Jumpman
 permalink: projects/mariojumpman
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-01
+published: true
 labels:
   - Java
   - EZ

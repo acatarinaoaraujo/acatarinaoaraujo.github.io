@@ -6,6 +6,7 @@ title: Buy From HER
 permalink: projects/buyfromHER
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-01
+published: true
 labels:
   - Prototype
   - UI Design

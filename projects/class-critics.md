@@ -6,6 +6,7 @@ title: Class Critics
 permalink: projects/class-critics
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-13
+published: true
 labels:
   - Javascript
   - Meteor
@@ -28,17 +29,16 @@ students to show both positive and negative points of their university and their
  
   - Landing Page
 
-<img class="ui image huge" src="../images/homepage.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/homepage.png">
  
  - Professors Page
 
-<img class="ui image huge" src="../images/professors.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/professors.png">
 
 - Professor Review Page
 
-<img class="ui image huge" src="../images/review.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/review.png">
  
-
 ### Collaboration 
 
 In this website application I have worked on the Professor's page which displays all the professors from the database. I created search bars
