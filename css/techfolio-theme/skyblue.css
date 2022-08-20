@@ -6,6 +6,7 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
+  --tf-orange1: #e47722;
   --tf-blue1: #076db3;
   --tf-blue2: #1b6fa9;
   --tf-blue3: #2f8ed0;
@@ -20,7 +21,7 @@
 }
 
 h1,h2,h3,h4,h5 {
-  color: var(--tf-blue1);
+  color: var(#076db3);
   font-family: Rubik;
 }
 
@@ -38,7 +39,7 @@ a {
 }
 
 .rounded-circle {
-  border-color: var(--tf-blue1);
+  border-color: var(--tf-orange1);
   border-style: solid;
   border-width: 1px;
 }
