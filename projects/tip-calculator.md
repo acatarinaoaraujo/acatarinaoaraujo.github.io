@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/projects/mobile/tip-calculator-icon.png
 title: Tip Calculator
-permalink: projects/iOS-calculator
+permalink: projects/tip-calculator
 # All dates must be YYYY-MM-DD format!
 date: 2022-07-12
 published: true
