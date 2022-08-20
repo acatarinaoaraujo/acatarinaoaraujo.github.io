@@ -9,12 +9,11 @@
   --tf-green2: #4FA64F;
   --tf-green3: #85C285;
   --tf-green4: #e0f2df;
-  --tf-blue1: #9fb9d5;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-green1);
   --tf-pill-bg: var(--tf-green3);
   --tf-icon-fill: var(--tf-green1);
-  --tf-page-bg-color: var(--tf-blue1);
+  --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-green4);
   --tf-projects-bg-color: var(--tf-green4);
 }
@@ -38,6 +37,6 @@ a {
 
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--tf-blue1);
+  background-color: var(--bs-white);
   border-top: none;
 }
