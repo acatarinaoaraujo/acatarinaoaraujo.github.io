@@ -6,6 +6,7 @@ title: AENEAS MEDICAL
 permalink: projects/aeneas-medical
 # All dates must be YYYY-MM-DD format!
 date: 2021-11-30
+published: true
 labels:
   - Javascript
   - Meteor
@@ -28,14 +29,11 @@ Sites are variable – brick and mortar, within shelters, outdoors with pop-up t
 There are anywhere from 4 to 15-20 learners in clinic in any given half-day and all use our EHR, ”Athena” to document
 information about patient care.
  - To read more about Hawaii H.O.M.E Project click [here](https://sites.google.com/view/hawaiihomeproject/about).
- 
-<img width="700px" class="ui centered floated rounded image" src="../images/list-inventory.png">
- 
-<img width="700px" class="ui centered floated rounded image" src="../images/add-item.png">
- 
-<img width="700px" class="ui centered floated rounded image" src="../images/items-multidispense.png">
- 
-<img width="700px" class="ui centered floated rounded image" src="../images/csv-report.png">
+
+ <img width="700px" class="img-fluid"  src="../img/projects/web/list-inventory.png">
+ <img width="700px" class="img-fluid"  src="../img/projects/web/add-item.png">
+ <img width="700px" class="img-fluid"  src="../img/projects/web/items-multidispense.png">
+ <img width="700px" class="img-fluid"  src="../img/projects/web/csv-report.png">
  
 *Group Members:Andre Joseph Ruiz, Ana Catarina Araujo, Darnell Domingo, Jason Kaneshiro, Michael Hui, Micah Imakyure, Skyler Kimura, Tony Long.*
  
