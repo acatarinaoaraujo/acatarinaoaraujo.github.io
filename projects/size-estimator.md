@@ -11,8 +11,6 @@ labels:
   - Swift 5
   - Xcode
   - iOS Development
-  - Auto Layout
-  - MVC
 summary: Based on the measurements of your chest or burst, waist, and hips, the dress size calculator determines your clothing size.
 ---
 

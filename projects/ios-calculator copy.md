@@ -11,8 +11,6 @@ labels:
   - Swift 5
   - Xcode
   - iOS Development
-  - Auto Layout
-  - MVC
 summary: Simple iOS calculator that performs basic calculations with ease.
 ---
 

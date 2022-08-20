@@ -11,8 +11,6 @@ labels:
   - Swift 5
   - Xcode
   - iOS Development
-  - Auto Layout
-  - MVC
 summary: This tip calculator is easy to use and straightforward. It works well for accurately calculating tips when dining out.
 ---
 
