@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/mobile/calculator.gif
+image: img/projects/mobile/calculator.png
 title: Calculator 
 permalink: projects/iOS-calculator
 # All dates must be YYYY-MM-DD format!
@@ -15,7 +15,7 @@ labels:
 summary: Simple calculator that performs calculations with ease using Swift.
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/projects/mobile/calculator.gif">
+<img width="200px" class="rounded float-start pe-4" src="../img/projects/mobile/calculator.png">
 
 A calculator that performs the four most basic mathematical operations - addition, subtraction, multiplication and division.
 In addition to sine, cos, tan and square-root. 
@@ -29,6 +29,6 @@ To see more about the app visit the link below:
 - [Source Code](https://github.com/acatarinaoaraujo/iOS-calculator)
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/projects/mobile/calculator.gif" class="img-thumbnail" >
+  <img width="300px" src="../img/projects/mobile/calculator.gif" class="img-thumbnail" >
   <img width="400px" src="../img/projects/mobile/landscape-calculator.png" class="img-thumbnail" >
 </div>
