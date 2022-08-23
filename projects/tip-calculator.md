@@ -18,7 +18,7 @@ This application is a tip calculator for iOS devices. It eliminates the unnecess
 
 ### What I Learned
 
-This app was created to get experience auto layering, and using UIButton, UIStoryboardSegue, UIStepper, and UITapGestureRecognizer.
+This app was created to get more experience using the storyboard, UIButton, UIStoryboardSegue, UIStepper, UITapGestureRecognizer and others.
 
 To see more about the app visit the link below:
 - [Source Code](https://github.com/acatarinaoaraujo/tip-calculator)
