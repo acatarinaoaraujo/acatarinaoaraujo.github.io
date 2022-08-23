@@ -16,11 +16,6 @@ summary: Simple iOS calculator that performs basic calculations with ease.
 
 A calculator that performs the four most basic mathematical operations - addition, subtraction, multiplication and division. In addition to sine, cos, tan and square-root. 
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/projects/mobile/calculator.gif" class="img-thumbnail" >
-  <img width="400px" src="../img/projects/mobile/landscape-calculator.png" class="img-thumbnail" >
-</div>
-
 ### What I Learned
 
 - UIView Controller:
@@ -60,6 +55,11 @@ if let constantName = someOptional {
    statements
 }
 ```
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/projects/mobile/calculator.gif" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/mobile/landscape-calculator.png" class="img-thumbnail" >
+</div>
 
 To see more about the app visit the link below:
 - [Source Code](https://github.com/acatarinaoaraujo/iOS-calculator)
