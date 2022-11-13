@@ -8,9 +8,11 @@ permalink: projects/aeneas-medical
 date: 2021-11-30
 published: true
 labels:
-  - Javascript
+  - Bootstrap
   - Meteor
-  - Semantic UI React
+  - React
+  - MongoDB
+  - Semantic UI
   - Agile Project Management 
   - ICS 414
 summary: Application to aid a mobile clinic to keep track of their medical supplies, and medications.
