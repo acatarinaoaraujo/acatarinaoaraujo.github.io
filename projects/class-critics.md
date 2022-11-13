@@ -28,7 +28,13 @@ students to show both positive and negative points of their university and their
 
 <div class="text-center p-4">
 <img width="700px" class="img-fluid"  src="../img/projects/web/homepage.png">
+</div>
+
+<div class="text-center p-4">
 <img width="700px" class="img-fluid"  src="../img/projects/web/professors.png">
+</div>
+
+<div class="text-center p-4">
 <img width="700px" class="img-fluid"  src="../img/projects/web/review.png">
 </div>
  

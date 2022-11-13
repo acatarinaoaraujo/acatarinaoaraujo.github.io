@@ -32,9 +32,18 @@ information about patient care.
 
 <div class="text-center p-4">
  <img width="700px" class="img-fluid"  src="../img/projects/web/list-inventory.png">
+</div>
+
+<div class="text-center p-4">
  <img width="700px" class="img-fluid"  src="../img/projects/web/add-item.png">
- <img width="700px" class="img-fluid"  src="../img/projects/web/items-multidispense.png">
- <img width="700px" class="img-fluid"  src="../img/projects/web/csv-report.png">
+</div>
+
+<div class="text-center p-4">
+<img width="700px" class="img-fluid"  src="../img/projects/web/items-multidispense.png">
+</div>
+
+<div class="text-center p-4">
+<img width="700px" class="img-fluid"  src="../img/projects/web/csv-report.png">
 </div>
  
 *Group Members:Andre Joseph Ruiz, Ana Catarina Araujo, Darnell Domingo, Jason Kaneshiro, Michael Hui, Micah Imakyure, Skyler Kimura, Tony Long.*
