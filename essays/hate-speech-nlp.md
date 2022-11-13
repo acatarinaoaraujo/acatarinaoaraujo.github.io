@@ -85,6 +85,11 @@ and separate tweets containing hate speech from those that are simply offensive,
 5) It might be challenging to evaluate whether some expressions qualify as hate speech based on the context, the publishing time, the events that were taking place at the time, and other variables.
    We provide the sources for hate speech detection mentioned in this research, along with the categorization.
 
+<div class="text-center p-4">
+  <img width="400px" src="../img/essays/summary.png" class="img-thumbnail" >
+</div>
+
+
 ##### VII. CONCLUSIONS
 
 The goal of this work was to examine scholarly publications and pinpoint the most effective techniques for spotting hate speech. As it turned out, the deep learning approaches were superior to those demonstrated by the traditional machine learning techniques. We know that NLP approaches are highly popular for hate speech detection, but there is a high potential still to use deep learning models as they can further contribute to this issue. Also, it is concluded that the results obtained using the feature selection technique, exclusively or in combination, generate the best estimates. Moreover, a limited amount of work on hate speech detection can be found using NLP, primarily because there is no standard definition of hate speech. Since there is great difficulty in determining, in a conclusive and indisputable way, what, in fact, constitutes hate speech.
