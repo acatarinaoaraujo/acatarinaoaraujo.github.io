@@ -30,6 +30,7 @@ Other members: Giorgio Tran, Shin Saito, Kayla Hirano, Rob Godfrey.
  To see more about project DOELT visit the links below:
 - [GitHub Repo](https://github.com/HACC2022/Cassiopeia)
 - [Deployment](https://doelt-hawaii.xyz/)
+- [Devpost](https://devpost.com/software/doelt)
  
 
  
