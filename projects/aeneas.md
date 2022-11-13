@@ -31,22 +31,20 @@ information about patient care.
  - To read more about Hawaii H.O.M.E Project click [here](https://sites.google.com/view/hawaiihomeproject/about).
 
 <div class="text-center p-4">
- <img width="700px" class="img-fluid"  src="../img/projects/web/list-inventory.png">
-</div>
+ <img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-signin.png">
 
-<div class="text-center p-4">
- <img width="700px" class="img-fluid"  src="../img/projects/web/add-item.png">
-</div>
+ <img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-inventory.png">
 
-<div class="text-center p-4">
-<img width="700px" class="img-fluid"  src="../img/projects/web/items-multidispense.png">
-</div>
+<img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-additem.png">
 
-<div class="text-center p-4">
+<img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-edititem.png">
+
+<img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-notifications.png">
+
 <img width="700px" class="img-fluid"  src="../img/projects/web/csv-report.png">
 </div>
  
-*Group Members:Andre Joseph Ruiz, Ana Catarina Araujo, Darnell Domingo, Jason Kaneshiro, Michael Hui, Micah Imakyure, Skyler Kimura, Tony Long.*
+Other members:Andre Ruiz, Darnell Domingo, Jason Kaneshiro, Michael Hui, Micah Imakyure, Skyler Kimura, Tony Long.
  
  To see more about project Aeneas visit the links below:
 - [GitHub Page](https://runtime-terrorz.github.io/)
