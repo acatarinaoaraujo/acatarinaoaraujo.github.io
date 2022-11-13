@@ -4,7 +4,7 @@ type: essay
 title: JavaScript Rules
 # All dates must be YYYY-MM-DD format!
 date: 2021-01-20
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning

@@ -4,6 +4,7 @@ type: essay
 title: Not Knowing It === Jobless
 # All dates must be YYYY-MM-DD format!
 date: 2021-04-29
+published: false
 labels:
   - Software
   - Design Patterns

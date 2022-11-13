@@ -4,7 +4,7 @@ type: essay
 title: Lessons from Software Engineering II
 # All dates must be YYYY-MM-DD format!
 date: 2021-12-10
-published: true
+published: false
 labels:
   - Software Engineering
   - Meteor
