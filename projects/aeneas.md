@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/web/aeneas.png
+image: img/projects/web/aeneas-logo.png
 title: AENEAS MEDICAL 
 permalink: projects/aeneas-medical
 # All dates must be YYYY-MM-DD format!
@@ -13,11 +13,9 @@ labels:
   - React
   - MongoDB
   - Semantic UI
-  - Agile Project Management 
-  - ICS 414
+  - Agile Project Management
 summary: Application to aid a mobile clinic to keep track of their medical supplies, and medications.
 ---
-
 
 ## Objective
 
@@ -32,10 +30,12 @@ There are anywhere from 4 to 15-20 learners in clinic in any given half-day and 
 information about patient care.
  - To read more about Hawaii H.O.M.E Project click [here](https://sites.google.com/view/hawaiihomeproject/about).
 
+<div class="text-center p-4">
  <img width="700px" class="img-fluid"  src="../img/projects/web/list-inventory.png">
  <img width="700px" class="img-fluid"  src="../img/projects/web/add-item.png">
  <img width="700px" class="img-fluid"  src="../img/projects/web/items-multidispense.png">
  <img width="700px" class="img-fluid"  src="../img/projects/web/csv-report.png">
+</div>
  
 *Group Members:Andre Joseph Ruiz, Ana Catarina Araujo, Darnell Domingo, Jason Kaneshiro, Michael Hui, Micah Imakyure, Skyler Kimura, Tony Long.*
  

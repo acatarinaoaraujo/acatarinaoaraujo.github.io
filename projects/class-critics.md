@@ -8,11 +8,10 @@ permalink: projects/class-critics
 date: 2021-05-13
 published: true
 labels:
-  - Javascript
   - Meteor
-  - Semantic UI React
-  - Agile Project Management 
-  - ICS 314
+  - MongoDB
+  - React
+  - Semantic UI
 summary: A simple web application which works as a tool for reviewing instructors and courses at UH Manoa.
 ---
 
@@ -26,18 +25,12 @@ students to show both positive and negative points of their university and their
  when the student has to choose and plan carefully the courses he will take. In UH Class Critics, it is possible to include information from courses 
  in the areas of business, health, economics, technology and marketing, among others. Knowing what past students struggled to learn is a step ahead 
  for any student.
- 
-  - Landing Page
 
+<div class="text-center p-4">
 <img width="700px" class="img-fluid"  src="../img/projects/web/homepage.png">
- 
- - Professors Page
-
 <img width="700px" class="img-fluid"  src="../img/projects/web/professors.png">
-
-- Professor Review Page
-
 <img width="700px" class="img-fluid"  src="../img/projects/web/review.png">
+</div>
  
 ### Collaboration 
 
