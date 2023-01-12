@@ -5,7 +5,7 @@ image: img/projects/AI&ML/msecurity-logo.png
 title: Analysis of Mobile Security Discussion Topics On Stack Overflow
 permalink: projects/msecurity
 # All dates must be YYYY-MM-DD format!
-date: 2022-11-05
+date: 2022-16-12
 published: true
 labels:
   - Python
