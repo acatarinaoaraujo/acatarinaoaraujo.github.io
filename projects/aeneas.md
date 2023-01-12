@@ -8,9 +8,9 @@ permalink: projects/aeneas-medical
 date: 2021-11-30
 published: true
 labels:
-  - Bootstrap
-  - Meteor
-  - React
+  - Javascript
+  - Meteor.js
+  - React.js
   - MongoDB
   - Semantic UI
   - Agile Project Management

@@ -8,8 +8,8 @@ permalink: projects/buyfromHER
 date: 2021-06-01
 published: true
 labels:
-  - Prototype
-  - UI Design
+  - Prototype (No Coding)
+  - User Interface Design
   - Human-Computer Interaction
 summary: The development of an app prototype to strengthen the local economy, with emphasis on female entrepreneurship.  
 ---

@@ -2,16 +2,18 @@
 layout: project
 type: project
 image: img/projects/web/doelt-logo.png
-title: DOELT - Legislative Tracker
+title: DOELT - Legislative Tracker (2nd Place in HACC 2022)
 permalink: projects/doelt
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-05
 published: true
 labels:
+  - Javascript
   - Bootstrap
   - MongoDB
-  - React
-  - Meteor.js
+  - React.js
+  - Meteor.js 
+  - Agile Project Management
   - HACC
 summary: A modern legislative tracker app that helps Hawai'i's Department of Education keep up with upcoming hearings and write testimonies more efficiently through custom built scrapers.
 ---

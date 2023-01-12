@@ -8,10 +8,12 @@ permalink: projects/class-critics
 date: 2021-05-13
 published: true
 labels:
-  - Meteor
+  - Javascript
+  - Meteor.js
   - MongoDB
-  - React
-  - Semantic UI
+  - React.js
+  - Semantic UI 
+  - Agile Project Management
 summary: A simple web application which works as a tool for reviewing instructors and courses at UH Manoa.
 ---
 

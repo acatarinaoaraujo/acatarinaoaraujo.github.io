@@ -2,16 +2,15 @@
 layout: project
 type: project
 image: img/projects/web/Mario Bros.jpg
-title: Mario Jumpman 
+title: Mario Jumpman (My First App)
 permalink: projects/mariojumpman
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-01
 published: false
 labels:
   - Java
-  - EZ
+  - EZ (Java Graphics Library by created UH student)
   - Super Mario Bros
-  - ICS 111
 summary: My team developed a simple game for ICS 111 based on the coolest video game character in world, Mario.
 ---
 
@@ -45,8 +44,8 @@ find the perfect graphics for a game.
 The second image shows mario after he was hit but the bullet. GAME OVER!*
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/projects/web/MarioBros3.png" class="img-thumbnail" >
-  <img width="300px" src="../img/projects/web/MarioBros2.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/web/MarioBros3.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/web/MarioBros2.png" class="img-thumbnail" >
 </div>
         
 ### Some EZ methods used in the game:
@@ -74,3 +73,5 @@ Used to move the seamless background in order to make the game more realistic.
 First-year ICS 111 students at the University of Hawaii at Manoa has been using EZ Graphics (a Java graphics library) since 2014.
 EZ aids students with no prior programming experience to manipulate graphics. EZ was created by Dylan Kobayashi.To read more about
 EZ visit the url: [EZ Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/).
+
+* Source code is unfortunately not available anymore. * :(
