@@ -6,7 +6,7 @@ title: Mario Jumpman (My First App)
 permalink: projects/mariojumpman
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-01
-published: false
+published: true
 labels:
   - Java
   - EZ (Java Graphics Library by created UH student)
