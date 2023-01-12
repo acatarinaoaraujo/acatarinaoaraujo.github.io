@@ -34,12 +34,7 @@
       ]
     },
     {
-      "name": "Web Development",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Mobile Development",
+      "name": "AI/ML",
       "keywords": [
       ]
     },
@@ -62,8 +57,7 @@
         "SQL",
         "CSS",
         "Swift",
-        "Dart",
-        "Portuguese"
+        "Dart"
       ]
     },
     {
@@ -73,7 +67,7 @@
         "React",
         "Meteor",
         "Semantic UI",
-        "Flutter"
+        "Flutter", "etc."
       ]
     },
     {
@@ -131,11 +125,14 @@
       "studyType": "M.S.",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "4",
       "courses": [
-        "ICS 661 - Advanced Artificial Intelligence (Fall 2022)",
-        "ICS 691D - Human-Centered Artificial Intelligence (Fall 2022)",
-        "ICS 691E - Software Quality Assurance (Fall 2022)",
+        "ICS 661 - Advanced Artificial Intelligence",
+        "ICS 691D - Human-Centered Artificial Intelligence",
+        "ICS 691E - Software Quality Assurance",
+        "ICS 637 - Deep Learning with Neural Networks (Spring 2023)",
+        "ICS 635 - Machine Learning (Spring 2023)",
+        "ICS 496 - Capstone (Spring 2023)"
       ]
     }
   ],
