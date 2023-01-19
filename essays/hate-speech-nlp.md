@@ -12,7 +12,7 @@ labels:
 
 **Abstract**—Individuals who share hate speech tend to disguise their words with special characters or even sarcasm, thus making it a difficult task for basic algorithms to block such content. An efficient technique is needed to detect these speeches automatically as the volume of messages published daily increases and the task becomes unfeasible. The idea is to analyze various features, feature extraction techniques, and machine learning algorithms used by researchers to identify hate. Additionally, we will examine the limitations of various research methodologies as well as how certain textual characteristics may affect the categorization outcome. These methods will be compared to arrive at a conclusion that represents the state of the art in the detection of hate speech. The data examined by the authors comes directly from the Twitter API and Crowdflower.
 
-## **I. INTRODUCTION**
+##### I. INTRODUCTION**
 
 Social media has brought a shift in relation to the way people communicate. It has been the stage for debates and the expression of personal opinions on various subjects. It enables people to voice their ideas freely and without any sort of face-to-face interaction. In general, we have the freedom to express ourselves without doing harm to another individual or a group. However, this doesn’t always happen in a polite and healthy manner. Hate speech, which occurs when someone expresses themselves in a way that discriminates against another person or group based on their characteristics, including sex, ethnicity, sexual orientation, and religion, among others, is one of the ways this freedom is abused.
 
