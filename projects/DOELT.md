@@ -18,9 +18,8 @@ labels:
 summary: A modern legislative tracker app that helps Hawai'i's Department of Education keep up with upcoming hearings and write testimonies more efficiently through custom built scrapers.
 ---
 
-#### #2 Place on HACC 2022 (Hawai'i Annual Code Challenge)
 <div class="text-center p-4">
- <img width="300px" class="img-fluid"  src="../img/projects/web/HACC.png.png">
+ <img width="260px" class="img-fluid"  src="../img/projects/web/HACC.png">
 </div>
 
 ### About:
