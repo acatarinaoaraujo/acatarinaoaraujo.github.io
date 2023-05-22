@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/web/class-critics.png
+image: img/projects/web/cc-professors.png
 title: Class Critics
 permalink: projects/class-critics
 # All dates must be YYYY-MM-DD format!
@@ -9,65 +9,51 @@ date: 2021-05-13
 published: true
 labels:
   - Javascript
+  - React.js
   - Meteor.js
   - MongoDB
-  - React.js
-  - Semantic UI 
+  - Semantic UI
   - Agile Project Management
 summary: A simple web application which works as a tool for reviewing instructors and courses at UH Manoa.
 ---
 
 ### Overview
- 
-UH Class Critics is a service that allows students from the University of Hawaii at Manoa to share their experiences taking different college
-courses and professors and reviewing them. Students can evaluate their teachers and courses based on criteria they care about. The tool allows
-students to show both positive and negative points of their university and their course.
- 
- The inspiration for the project came from the lack of information when it comes to choosing courses and teachers at the beginning of each semester,
- when the student has to choose and plan carefully the courses he will take. In UH Class Critics, it is possible to include information from courses 
- in the areas of business, health, economics, technology and marketing, among others. Knowing what past students struggled to learn is a step ahead 
- for any student.
+
+UH Class Critics is a platform designed for students at the University of Hawaii at Manoa to share their experiences and provide reviews of various college courses and professors. It offers a valuable opportunity for students to assess their teachers and courses based on criteria that matter to them.
+
+ ### The Problem
+
+ The project was conceived in response to the lack of information available to students when it comes to selecting courses and professors at the start of each semester. During this crucial time, students must carefully plan and choose the courses they will undertake. UH Class Critics addresses this issue by allowing students to contribute information and reviews about courses in various disciplines such as business, health, economics, technology, marketing, and more. Accessing insights from past students who have encountered challenges in their learning journey provides a valuable advantage to any current student.
+
+ ### The Solution
+
+Two key features hold significant importance. Firstly, the ability to list available professors and courses, providing users with comprehensive information. Secondly, the inclusion of a review system, enabling students to share their experiences and opinions. Below, you can find two accompanying images showcasing these features.
 
 <div class="text-center p-4">
-<img width="700px" class="img-fluid"  src="../img/projects/web/homepage.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/cc-homepage.png">
 </div>
 
 <div class="text-center p-4">
-<img width="700px" class="img-fluid"  src="../img/projects/web/professors.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/cc-professors.png">
 </div>
 
 <div class="text-center p-4">
-<img width="700px" class="img-fluid"  src="../img/projects/web/review.png">
+<img width="700px" class="img-fluid"  src="../img/projects/web/cc-review.png">
 </div>
- 
-### Collaboration 
 
-In this website application I have worked on the Professor's page which displays all the professors from the database. I created search bars
-for the courses' page and professors' page allowing users to find quickly what they are looking for. From the overview pages, I have made a
-section where students can write reviews and see reviews from other students as well. Finally, I also created a page with information about 
-our team members, and for the administrator level, a page to insert new courses at database.
+### My Contributions
 
+Within this website application, the Professor's page was developed to display a comprehensive list of professors retrieved from the database. Implementing search bars on both the courses' and professors' pages allowed users to quickly find the information they were seeking. To facilitate student engagement, a review section was included on the overview pages, enabling students to share their experiences and access reviews from their peers. Additionally, a dedicated page was created to provide information about the team members involved in the project. Furthermore, an administrator-level page was implemented to enable easy insertion of new courses into the database.
 
 ### What I Learned From This Experience
 
-One of the things I enjoyed about this project was learning about Agile Project Management. I have found this method of management to 
-be immensively useful, flexible, and easy to maintain. Futhermore, by setting tasks for each milestone, our group members were aware of
-the things we had to do. If something did not work properly as we expect, we could adapt the issue. We could also move tasks around, decide
-one task should be done before the order according to the groups needs.
+Throughout this project, one aspect that particularly stood out to me was the acquisition of knowledge regarding Agile Project Management. I found this management approach to be incredibly valuable, offering flexibility and ease of maintenance. By establishing tasks for each milestone, our team members were well-informed about our objectives. If any issues arose, we had the ability to adapt and make necessary adjustments. Additionally, we had the freedom to rearrange tasks according to the group's needs, prioritizing specific tasks over others.
 
-Overall, I learned how to communicate better with others in the group, how to divide larger tasks into smaller ones, maintain control of 
-changes and not lose progress by committing changes more often on GitHub. And of course, how to develop an website which can load data from 
-a database, how props can be extremely useful when using database, record new data into a database, experience using underscore to filter, 
-map and sort names, etc.
- 
- Two of the most important features of this project are listing the professors and courses available, and reviewing them.
- Below there are two images demonstrating those features, one display the courses where it is possible to see ICS courses,
- and the other shows an overview of Professor Carleton Moore and pior reviews made by his students.
-
+On the whole, this experience enhanced my communication skills within the group, taught me how to break down larger tasks into smaller ones, and emphasized the importance of regularly committing changes on GitHub to avoid losing progress. Furthermore, I gained valuable insights into developing a website capable of retrieving data from a database, effectively utilizing props when interacting with the database, and recording new data entries. Additionally, I had the opportunity to work with ```underscore.js```, which proved to be immensely helpful in filtering, mapping, and sorting names, among other functionalities.
 
 ### Organization
 
-[UH Class Critics](https://class-critics.xyz/#/) was designed, implemented, and maintained by our team composed of Steven Le,
-John Suelen, Johnny Ho, Zi Jun Huang, and I. Our UH Class Critics GitHub Organization can also be found at here at [GitHub](https://github.com/uh-class-critics)
-
+```Team Members```: Steven Le, John Suelen, Johnny Ho, Zi Jun Huang, and I.
+```Source Code```: [GitHub Link](https://github.com/uh-class-critics)
+```Page``: [GitHub Page](https://uh-class-critics.github.io/)
 
