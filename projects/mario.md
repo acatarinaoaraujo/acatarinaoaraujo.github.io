@@ -14,7 +14,9 @@ summary: A simple game was developed for ICS 111 using Java and EZ Graphics, dra
 ---
 
 ```Language(s)```: Java
+
 ```Tools```: EZ
+
 ### Why Mario?
 
 Playing Mario for the first time when I was around 7 years old is a vivid memory. It was the initial game I ever experienced. And when Professor Professor [Jason Leigh](https://www.mindmeister.com/map/2671123807?t=8kkUtoEmru) introduced the final project for ICS 111, my immediate idea was to create a Mario-inspired game.
@@ -34,6 +36,7 @@ Overall, familiarizing myself with the EZ documentation and Java programming lan
   <img width="400px" src="../img/projects/web/mariobros2.png" class="img-thumbnail" >
   <img width="400px" src="../img/projects/web/mariobros3.png" class="img-thumbnail" >
 </div>
+
 
 ### Some EZ methods used in the game:
 

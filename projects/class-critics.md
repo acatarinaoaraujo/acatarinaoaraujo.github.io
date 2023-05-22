@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/web/cc-professors.png
+image: img/projects/web/cc-cover.png
 title: Class Critics
 permalink: projects/class-critics
 # All dates must be YYYY-MM-DD format!
@@ -14,18 +14,21 @@ labels:
   - MongoDB
   - Semantic UI
   - Agile Project Management
-summary: A simple web application which works as a tool for reviewing instructors and courses at UH Manoa.
+summary: A platform designed for students at UH to share their experiences and provide reviews of various courses and professors. It provides students with a valuable chance to evaluate their instructors and courses according to criteria that are important to them.
 ---
+
+```Language(s)```: Javascript, HTLM, CSS
+```Frameworks/Libraries```: React.js, Meteor.js, Semantic UI
 
 ### Overview
 
 UH Class Critics is a platform designed for students at the University of Hawaii at Manoa to share their experiences and provide reviews of various college courses and professors. It offers a valuable opportunity for students to assess their teachers and courses based on criteria that matter to them.
 
- ### The Problem
+### The Problem
 
- The project was conceived in response to the lack of information available to students when it comes to selecting courses and professors at the start of each semester. During this crucial time, students must carefully plan and choose the courses they will undertake. UH Class Critics addresses this issue by allowing students to contribute information and reviews about courses in various disciplines such as business, health, economics, technology, marketing, and more. Accessing insights from past students who have encountered challenges in their learning journey provides a valuable advantage to any current student.
+The project was conceived in response to the lack of information available to students when it comes to selecting courses and professors at the start of each semester. During this crucial time, students must carefully plan and choose the courses they will undertake. UH Class Critics addresses this issue by allowing students to contribute information and reviews about courses in various disciplines such as business, health, economics, technology, marketing, and more. Accessing insights from past students who have encountered challenges in their learning journey provides a valuable advantage to any current student.
 
- ### The Solution
+### The Solution
 
 Two key features hold significant importance. Firstly, the ability to list available professors and courses, providing users with comprehensive information. Secondly, the inclusion of a review system, enabling students to share their experiences and opinions. Below, you can find two accompanying images showcasing these features.
 
@@ -41,6 +44,10 @@ Two key features hold significant importance. Firstly, the ability to list avail
 <img width="700px" class="img-fluid"  src="../img/projects/web/cc-review.png">
 </div>
 
+<div class="text-center p-4">
+<img width="700px" class="img-fluid"  src="../img/projects/web/cc-newcourse.png">
+</div>
+
 ### My Contributions
 
 Within this website application, the Professor's page was developed to display a comprehensive list of professors retrieved from the database. Implementing search bars on both the courses' and professors' pages allowed users to quickly find the information they were seeking. To facilitate student engagement, a review section was included on the overview pages, enabling students to share their experiences and access reviews from their peers. Additionally, a dedicated page was created to provide information about the team members involved in the project. Furthermore, an administrator-level page was implemented to enable easy insertion of new courses into the database.
@@ -54,6 +61,8 @@ On the whole, this experience enhanced my communication skills within the group,
 ### Organization
 
 ```Team Members```: Steven Le, John Suelen, Johnny Ho, Zi Jun Huang, and I.
+
 ```Source Code```: [GitHub Link](https://github.com/uh-class-critics)
-```Page``: [GitHub Page](https://uh-class-critics.github.io/)
+
+```Page```: [GitHub Page](https://uh-class-critics.github.io/)
 
