@@ -17,7 +17,7 @@ labels:
 summary: Aeneas Medical is dedicated to developing a mobile application that enables efficient management of medications and supplies for a mobile clinic. The application also provides access to comprehensive health information of patients, streamlining healthcare processes and improving patient care.
 ---
 
-```Language(s)```: Javascript, HTLM, CSS
+```Language(s)```: Javascript, HTML, CSS
 
 ```Frameworks/Libraries```: React.js, Meteor.js, Semantic UI
 
@@ -34,10 +34,11 @@ The Hawaii H.O.M.E. Project was established in 2005 with the objective of enhanc
  <img width="400px" class="img-fluid"  src="../img/projects/web/aeneas-HOME-Impact2022.png">
 </div>
 
-### The App
+### Our Solution
 
-<img width="300px" class="rounded float-start pe-4" src="../img/projects/web/aeneas-logo.png">
+<img width="140px" class="rounded float-start pe-4" src="../img/projects/web/aeneas-logo.png">
 The functionality of the Aeneas Medical application includes essential features such as sign-in/sign-up, a landing page, order management, inventory tracking, dispensing medications, low inventory reporting, and administrative capabilities. The application allows users to create and manage accounts, view log history, and receive notifications. Additional features encompassed within specific pages include search and filtering options, lot-based dispensing, role management, and the ability to remove accounts. These functionalities aim to enhance the efficiency and effectiveness of the mobile clinic in managing medications, supplies, and patient health information.
+
 
 <div class="text-center p-4">
  <img width="700px" class="img-fluid"  src="../img/projects/web/aeneas-signin.png">

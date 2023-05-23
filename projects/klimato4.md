@@ -16,10 +16,11 @@ summary: With detailed forecasts for the next four days, including four-hour int
 ---
 
 ### Overview
-<img width="300px" class="rounded float-start pe-4" src="../img/projects/mobile/klimate4-icon.png">
+<img width="160px" class="rounded float-start pe-4" src="../img/projects/mobile/klimate4-icon.png">
 Klimato 4 is a highly accurate weather tool that ensures you stay prepared for any weather condition. Whether it's a snowstorm, strong winds, sunshine, or rain, this app provides precise weather information. With forecasts for the next four days, it offers detailed hourly weather updates throughout each day. It's the ultimate weather companion to help you navigate any weather situation.
 
 The forecast has data about the population, coordinates, weather, and temperature of the location. This was made possible by using the [OpenWeather API](https://openweathermap.org/forecast5), where the forecast is available in JSON and XML format.
+
 
 <div class="text-center p-4">
  <img width="300px" src="../img/projects/mobile/klimato-4.gif" class="img-thumbnail" >
