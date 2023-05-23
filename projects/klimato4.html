@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Klimato 4 | Ana Catarina O. Araujo | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/acatarinaoaraujo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ana Catarina O. Araujo | Professional Portfolio">
+    <meta property="og:url" content="https://acatarinaoaraujo.github.io/projects/klimato4">
+    <meta property="og:title" content="Klimato 4 | Ana Catarina O. Araujo | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/acatarinaoaraujo.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/tulip.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Klimato 4 | Ana Catarina O. Araujo | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Ana Catarina Oliveira Araújo</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Klimato 4</h1>
+ <h3 id="overview">Overview</h3>
+<p><img width="160px" class="rounded float-start pe-4" src="../img/projects/mobile/klimate4-icon.png" />
+Klimato 4 is a highly accurate weather tool that ensures you stay prepared for any weather condition. Whether it’s a snowstorm, strong winds, sunshine, or rain, this app provides precise weather information. With forecasts for the next four days, it offers detailed hourly weather updates throughout each day. It’s the ultimate weather companion to help you navigate any weather situation.</p>
+
+<p>The forecast has data about the population, coordinates, weather, and temperature of the location. This was made possible by using the <a href="https://openweathermap.org/forecast5">OpenWeather API</a>, where the forecast is available in JSON and XML format.</p>
+
+<div class="text-center p-4">
+ <img width="300px" src="../img/projects/mobile/klimato-4.gif" class="img-thumbnail" />
+ <img width="300px" src="../img/projects/mobile/klimato-4-darkmode.png" class="img-thumbnail" />
+</div>
+
+<h3 id="what-i-have-learned">What I Have Learned</h3>
+
+<ul>
+  <li><strong>UIStackView</strong>: You may use stack views to build user interfaces that dynamically adjust to changes in the available space, the orientation of the device, and the size of the screen. The axis property is most likely the first stack view property you will work with. It allows you to designate how the primary axis, or the axis along which the stacked subviews are placed. By setting it to either horizontal or vertical, all subviews will be forced to fit into a single row or column. This implies that stack views in iOS do not let overflowing subviews to wrap into a new row or column.</li>
+</ul>
+
+<div class="text-center p-4">
+  <img width="300px" src="https://docs-assets.developer.apple.com/published/82128953f6/uistack_hero_2x_04e50947-5aa0-4403-825b-26ba4c1662bd.png" class="img-thumbnail" />
+</div>
+
+<ul>
+  <li>
+    <p><strong>UISwitch</strong>: The UISwitch specifies a method to regulate the switch’s on/off state. The valueChanged event is triggered when the user moves the switch control just like with UISlider.</p>
+  </li>
+  <li>
+    <p><strong>Delegation</strong>: A design pattern called delegation allows a class to “delegate” some of its duties to an instance of another class. One class transfers a responsibility to another class by delegating a job to that class. This allows the delegate to alter the base class. We may create code that is considerably simpler to reuse and maintain by removing the requirement that an object understand the concrete type of its owner. When a type needs to be used in numerous contexts and has a clear owner in each of those contexts, delegation is typically a viable option.</p>
+  </li>
+</ul>
+
+<div class="text-center p-4">
+  <img width="300px" src="https://assets.alexandria.raywenderlich.com/books/ia/images/33862497382cb524694b7dc467ce2ef3ff3b032660e8faf2d2b33ba7e0864186/original.png" class="img-thumbnail" />
+</div>
+
+<ul>
+  <li><strong>CLLocationManager</strong>: We can request location permissions using CLLocationManager to get a user’s location once, and when needed.</li>
+</ul>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">extension</span> <span class="kt">WeatherViewController</span><span class="p">:</span> <span class="kt">CLLocationManagerDelegate</span> <span class="p">{</span>
+
+    <span class="kd">@IBAction</span> <span class="kd">func</span> <span class="nf">locationPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">locationManager</span><span class="o">.</span><span class="nf">requestLocation</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didUpdateLocations</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLLocation</span><span class="p">])</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">location</span> <span class="o">=</span> <span class="n">locations</span><span class="o">.</span><span class="n">last</span> <span class="p">{</span>
+            <span class="n">locationManager</span><span class="o">.</span><span class="nf">stopUpdatingLocation</span><span class="p">()</span>
+            <span class="k">let</span> <span class="nv">lat</span> <span class="o">=</span> <span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="o">.</span><span class="n">latitude</span>
+            <span class="k">let</span> <span class="nv">lon</span> <span class="o">=</span> <span class="n">location</span><span class="o">.</span><span class="n">coordinate</span><span class="o">.</span><span class="n">longitude</span>
+            <span class="n">weatherManager</span><span class="o">.</span><span class="nf">fetchWeather</span><span class="p">(</span><span class="nv">latitude</span><span class="p">:</span> <span class="n">lat</span><span class="p">,</span> <span class="nv">longitude</span><span class="p">:</span> <span class="n">lon</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><strong>Perform a URL Request with URLSession</strong>: URLSession is a networking API for downloading data from and uploading data to endpoints denoted by URLs.</p>
+  </li>
+  <li>
+    <p><strong>Parse JSON</strong>: The JSON format (JavaScript Object Notation) is great for the exchange of data due to its easily readable text form. Data is represented via arrays {…} and lists […]:</p>
+  </li>
+</ul>
+
+<p>Example of answer in JSON:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"cod"</span><span class="p">:</span><span class="s2">"200"</span><span class="p">,</span><span class="nl">"message"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"cnt"</span><span class="p">:</span><span class="mi">40</span><span class="p">,</span><span class="nl">"list"</span><span class="p">:[{</span><span class="nl">"dt"</span><span class="p">:</span><span class="mi">1661245200</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:{</span><span class="nl">"temp"</span><span class="p">:</span><span class="mf">79.29</span><span class="p">,</span><span class="nl">"feels_like"</span><span class="p">:</span><span class="mf">79.29</span><span class="p">,</span><span class="nl">"temp_min"</span><span class="p">:</span><span class="mf">73.18</span><span class="p">,</span><span class="nl">"temp_max"</span><span class="p">:</span><span class="mf">79.29</span><span class="p">,</span><span class="nl">"pressure"</span><span class="p">:</span><span class="mi">1012</span><span class="p">,</span><span class="nl">"sea_level"</span><span class="p">:</span><span class="mi">1012</span><span class="p">,</span><span class="nl">"grnd_level"</span><span class="p">:</span><span class="mi">1008</span><span class="p">,</span><span class="nl">"humidity"</span><span class="p">:</span><span class="mi">83</span><span class="p">,</span><span class="nl">"temp_kf"</span><span class="p">:</span><span class="mf">3.39</span><span class="p">},</span><span class="nl">"weather"</span><span class="p">:[{</span><span class="nl">"id"</span><span class="p">:</span><span class="mi">800</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:</span><span class="s2">"Clear"</span><span class="p">,</span><span class="nl">"description"</span><span class="p">:</span><span class="s2">"clear sky"</span><span class="p">,</span><span class="nl">"icon"</span><span class="p">:</span><span class="s2">"01n"</span><span class="p">}],</span><span class="nl">"clouds"</span><span class="p">:{</span><span class="nl">"all"</span><span class="p">:</span><span class="mi">0</span><span class="p">},</span><span class="nl">"wind"</span><span class="p">:{</span><span class="nl">"speed"</span><span class="p">:</span><span class="mf">0.78</span><span class="p">,</span><span class="nl">"deg"</span><span class="p">:</span><span class="mi">285</span><span class="p">,</span><span class="nl">"gust"</span><span class="p">:</span><span class="mf">1.07</span><span class="p">},</span><span class="nl">"visibility"</span><span class="p">:</span><span class="mi">10000</span><span class="p">,</span><span class="nl">"pop"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"sys"</span><span class="p">:{</span><span class="nl">"pod"</span><span class="p">:</span><span class="s2">"n"</span><span class="p">},</span><span class="nl">"dt_txt"</span><span class="p">:</span><span class="s2">"2022-08-23 09:00:00"</span><span class="p">},{</span><span class="nl">"dt"</span><span class="p">:</span><span class="mi">1661256000</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:{</span><span class="nl">"temp"</span><span class="p">:</span><span class="mf">80.17</span><span class="p">,</span><span class="nl">"feels_like"</span><span class="p">:</span><span class="mf">83.48</span><span class="p">,</span><span class="nl">"temp_min"</span><span class="p">:</span><span class="mf">80.17</span><span class="p">,</span><span class="nl">"temp_max"</span><span class="p">:</span><span class="mf">81.95</span><span class="p">,</span><span class="nl">"pressure"</span><span class="p">:</span><span class="mi">1012</span><span class="p">,</span><span class="nl">"sea_level"</span><span class="p">:</span><span class="mi">1012</span><span class="p">,</span><span class="nl">"grnd_level"</span><span class="p">:</span><span class="mi">1010</span><span class="p">,</span><span class="nl">"humidity"</span><span class="p">:</span><span class="mi">72</span><span class="p">,</span><span class="nl">"temp_kf"</span><span class="p">:</span><span class="mf">-0.99</span><span class="p">},</span><span class="nl">"weather"</span><span class="p">:[{</span><span class="nl">"id"</span><span class="p">:</span><span class="mi">801</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:</span><span class="s2">"Clouds"</span><span class="p">,</span><span class="nl">"description"</span><span class="p">:</span><span class="s2">"few clouds"</span><span class="p">,</span><span class="nl">"icon"</span><span class="p">:</span><span class="s2">"02d"</span><span class="p">}],</span><span class="nl">"clouds"</span><span class="p">:{</span><span class="nl">"all"</span><span class="p">:</span><span class="mi">11</span><span class="p">},</span><span class="nl">"wind"</span><span class="p">:{</span><span class="nl">"speed"</span><span class="p">:</span><span class="mf">0.72</span><span class="p">,</span><span class="nl">"deg"</span><span class="p">:</span><span class="mi">14</span><span class="p">,</span><span class="nl">"gust"</span><span class="p">:</span><span class="mf">1.05</span><span class="p">},</span><span class="nl">"visibility"</span><span class="p">:</span><span class="mi">10000</span><span class="p">,</span><span class="nl">"pop"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"sys"</span><span class="p">:{</span><span class="nl">"pod"</span><span class="p">:</span><span class="s2">"d"</span><span class="p">},</span><span class="nl">"dt_txt"</span><span class="p">:</span><span class="s2">"2022-08-23 12:00:00"</span><span class="p">},{</span><span class="nl">"dt"</span><span class="p">:</span><span class="mi">1661655600</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:{</span><span class="nl">"temp"</span><span class="p">:</span><span class="mf">75.34</span><span class="p">,</span><span class="nl">"feels_like"</span><span class="p">:</span><span class="mf">76.62</span><span class="p">,</span><span class="nl">"temp_min"</span><span class="p">:</span><span class="mf">75.34</span><span class="p">,</span><span class="nl">"temp_max"</span><span class="p">:</span><span class="mf">75.34</span><span class="p">,</span><span class="nl">"pressure"</span><span class="p">:</span><span class="mi">1010</span><span class="p">,</span><span class="nl">"sea_level"</span><span class="p">:</span><span class="mi">1010</span><span class="p">,</span><span class="nl">"grnd_level"</span><span class="p">:</span><span class="mi">1007</span><span class="p">,</span><span class="nl">"humidity"</span><span class="p">:</span><span class="mi">86</span><span class="p">,</span><span class="nl">"temp_kf"</span><span class="p">:</span><span class="mi">0</span><span class="p">},</span><span class="nl">"weather"</span><span class="p">:[{</span><span class="nl">"id"</span><span class="p">:</span><span class="mi">500</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:</span><span class="s2">"Rain"</span><span class="p">,</span><span class="nl">"description"</span><span class="p">:</span><span class="s2">"light rain"</span><span class="p">,</span><span class="nl">"icon"</span><span class="p">:</span><span class="s2">"10n"</span><span class="p">}],</span><span class="nl">"clouds"</span><span class="p">:{</span><span class="nl">"all"</span><span class="p">:</span><span class="mi">29</span><span class="p">},</span><span class="nl">"wind"</span><span class="p">:{</span><span class="nl">"speed"</span><span class="p">:</span><span class="mf">2.19</span><span class="p">,</span><span class="nl">"deg"</span><span class="p">:</span><span class="mi">36</span><span class="p">,</span><span class="nl">"gust"</span><span class="p">:</span><span class="mf">2.3</span><span class="p">},</span><span class="nl">"visibility"</span><span class="p">:</span><span class="mi">10000</span><span class="p">,</span><span class="nl">"pop"</span><span class="p">:</span><span class="mf">0.59</span><span class="p">,</span><span class="nl">"rain"</span><span class="p">:{</span><span class="nl">"3h"</span><span class="p">:</span><span class="mf">0.24</span><span class="p">},</span><span class="nl">"sys"</span><span class="p">:{</span><span class="nl">"pod"</span><span class="p">:</span><span class="s2">"n"</span><span class="p">},</span><span class="nl">"dt_txt"</span><span class="p">:</span><span class="s2">"2022-08-28 03:00:00"</span><span class="p">},{</span><span class="nl">"dt"</span><span class="p">:</span><span class="mi">1661666400</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:{</span><span class="nl">"temp"</span><span class="p">:</span><span class="mf">73.63</span><span class="p">,</span><span class="nl">"feels_like"</span><span class="p">:</span><span class="mf">74.84</span><span class="p">,</span><span class="nl">"temp_min"</span><span class="p">:</span><span class="mf">73.63</span><span class="p">,</span><span class="nl">"temp_max"</span><span class="p">:</span><span class="mf">73.63</span><span class="p">,</span><span class="nl">"pressure"</span><span class="p">:</span><span class="mi">1009</span><span class="p">,</span><span class="nl">"sea_level"</span><span class="p">:</span><span class="mi">1009</span><span class="p">,</span><span class="nl">"grnd_level"</span><span class="p">:</span><span class="mi">1005</span><span class="p">,</span><span class="nl">"humidity"</span><span class="p">:</span><span class="mi">88</span><span class="p">,</span><span class="nl">"temp_kf"</span><span class="p">:</span><span class="mi">0</span><span class="p">},</span><span class="nl">"weather"</span><span class="p">:[{</span><span class="nl">"id"</span><span class="p">:</span><span class="mi">500</span><span class="p">,</span><span class="nl">"main"</span><span class="p">:</span><span class="s2">"Rain"</span><span class="p">,</span><span class="nl">"description"</span><span class="p">:</span><span class="s2">"light rain"</span><span class="p">,</span><span class="nl">"icon"</span><span class="p">:</span><span class="s2">"10n"</span><span class="p">}],</span><span class="nl">"clouds"</span><span class="p">:{</span><span class="nl">"all"</span><span class="p">:</span><span class="mi">19</span><span class="p">},</span><span class="nl">"wind"</span><span class="p">:{</span><span class="nl">"speed"</span><span class="p">:</span><span class="mf">2.86</span><span class="p">,</span><span class="nl">"deg"</span><span class="p">:</span><span class="mi">348</span><span class="p">,</span><span class="nl">"gust"</span><span class="p">:</span><span class="mf">3.6</span><span class="p">},</span><span class="nl">"visibility"</span><span class="p">:</span><span class="mi">10000</span><span class="p">,</span><span class="nl">"pop"</span><span class="p">:</span><span class="mf">0.53</span><span class="p">,</span><span class="nl">"rain"</span><span class="p">:{</span><span class="nl">"3h"</span><span class="p">:</span><span class="mf">0.56</span><span class="p">},</span><span class="nl">"sys"</span><span class="p">:{</span><span class="nl">"pod"</span><span class="p">:</span><span class="s2">"n"</span><span class="p">},</span><span class="nl">"dt_txt"</span><span class="p">:</span><span class="s2">"2022-08-28 06:00:00"</span><span class="p">}],</span><span class="nl">"city"</span><span class="p">:{</span><span class="nl">"id"</span><span class="p">:</span><span class="mi">3663517</span><span class="p">,</span><span class="nl">"name"</span><span class="p">:</span><span class="s2">"Manaus"</span><span class="p">,</span><span class="nl">"coord"</span><span class="p">:{</span><span class="nl">"lat"</span><span class="p">:</span><span class="mf">-3.1019</span><span class="p">,</span><span class="nl">"lon"</span><span class="p">:</span><span class="mf">-60.025</span><span class="p">},</span><span class="nl">"country"</span><span class="p">:</span><span class="s2">"BR"</span><span class="p">,</span><span class="nl">"population"</span><span class="p">:</span><span class="mi">1598210</span><span class="p">,</span><span class="nl">"timezone"</span><span class="p">:</span><span class="mi">-14400</span><span class="p">,</span><span class="nl">"sunrise"</span><span class="p">:</span><span class="mi">1661248923</span><span class="p">,</span><span class="nl">"sunset"</span><span class="p">:</span><span class="mi">1661292229</span><span class="p">}}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Swift can scan JSON data and convert Swift values to JSON using the Foundation classes JSONDecoder and JSONEncoder. It is advised to create appropriate data types as structs that are an exact 1:1 replica of the JSON structure. These need to be acknowledged as complying with the Codable protocol.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+
+<span class="kd">struct</span> <span class="kt">WeatherData</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">city</span><span class="p">:</span> <span class="kt">City</span>
+    <span class="k">let</span> <span class="nv">list</span><span class="p">:</span> <span class="p">[</span><span class="kt">List</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">City</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">let</span> <span class="nv">country</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">let</span> <span class="nv">population</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="k">let</span> <span class="nv">coord</span><span class="p">:</span> <span class="kt">Coordinates</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">Coordinates</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">lat</span><span class="p">:</span> <span class="kt">Float</span>
+    <span class="k">let</span> <span class="nv">lon</span><span class="p">:</span> <span class="kt">Float</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">List</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">main</span><span class="p">:</span> <span class="kt">Main</span>
+    <span class="k">let</span> <span class="nv">weather</span><span class="p">:</span> <span class="p">[</span><span class="kt">Weather</span><span class="p">]</span>
+    <span class="k">let</span> <span class="nv">dt_txt</span><span class="p">:</span> <span class="kt">String</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">Main</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">temp</span><span class="p">:</span> <span class="kt">Float</span>
+    <span class="k">let</span> <span class="nv">feels_like</span><span class="p">:</span> <span class="kt">Float</span>
+    <span class="k">let</span> <span class="nv">temp_min</span><span class="p">:</span> <span class="kt">Float</span>
+    <span class="k">let</span> <span class="nv">temp_max</span><span class="p">:</span> <span class="kt">Float</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">Weather</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="k">let</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="links">Links</h3>
+
+<p>To see more about the app visit the link below:</p>
+<ul>
+  <li><a href="https://github.com/acatarinaoaraujo/iOS-weather-app">Source Code</a></li>
+</ul>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

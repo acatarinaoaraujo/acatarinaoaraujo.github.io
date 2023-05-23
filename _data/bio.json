@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Ana Catarina Oliveira Araújo",
+    "label": "Graduate Student",
+    "picture": "https://github.com/acatarinaoaraujo.png",
+    "email": "acoa@hawaii.edu",
+    "phone": "808-352-9511",
+    "website": "https://acatarinaoaraujo.github.io",
+    "summary": "I am pursuing a Master of Science degree in Computer Science in the Department of Information & Computer Sciences at the University of Hawaii. ",
+    "location": {
+      "address": "",
+      "postalCode": "96712",
+      "city": "Haleiwa",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "acatarinaoaraujo",
+        "url": "http://github.com/acatarinaoaraujo"
+      },
+      {
+        "network": "linkedin",
+        "username": "acatarinaoaraujo",
+        "url": "http://linkedin.com/in/acatarinaoaraujo"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Software Engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "AI/ML",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Human-Computer Interaction",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "Python",
+        "SQL",
+        "CSS",
+        "Swift",
+        "Dart"
+      ]
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "level": "",
+      "keywords": [
+        "React",
+        "Meteor",
+        "Semantic UI",
+        "Flutter", "etc."
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "MacOS",
+        "Meteor",
+        "Eclipse",
+        "PyCharm",
+        "IntelliJ IDEA",
+        "Data Spell",
+        "Jupyter Notebook",
+        "Ubuntu",
+        "Virtual Box",
+        "Docker",
+        "Git/GitHub",
+        "Xcode",
+        "Android Studio",
+        "Visual Studio Code"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2019-01-12",
+      "endDate": "2022-05-12",
+      "gpa": "3.43",
+      "courses": [
+        "ICS 111 - Introduction to Computer Science I (Java Programming)",
+        "ICS 211 - Introduction to Computer Science II (Data Structures)",
+        "ICS 212 - Program Structure",
+        "ICS 141 - Discrete Mathematics I",
+        "ICS 241 - Discrete Mathematics II",
+        "ICS 311 - Algorithms",
+        "ICS 312 - Machine-Level and Systems Programming",
+        "ICS 314 - Software Engineering I",
+        "ICS 321 - Database Systems I",
+        "ICS 332 - Operating Systems",
+        "ICS 414 - Software Engineering II",
+        "ICS 419 - Science, Psychology and Philosophy of Systems Design",
+        "ICS 464 - Human Computer Interaction I",
+        "ICS 434 - Data Science Fundamentals",
+        "ICS 466 - Design for Mobile Devices",
+        "ICS 451 - Data Networks",
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "gpa": "4",
+      "courses": [
+        "ICS 661 - Advanced Artificial Intelligence",
+        "ICS 691D - Human-Centered Artificial Intelligence",
+        "ICS 691E - Software Quality Assurance",
+        "ICS 637 - Deep Learning with Neural Networks (Spring 2023)",
+        "ICS 635 - Machine Learning (Spring 2023)",
+        "ICS 496 - Capstone (Spring 2023)"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "Fall 2021",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Students with a 3.5 GPA or above in a semester with no grade of F or W."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

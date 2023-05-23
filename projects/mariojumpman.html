@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Mario Jumpman (My First App) | Ana Catarina O. Araujo | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/acatarinaoaraujo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ana Catarina O. Araujo | Professional Portfolio">
+    <meta property="og:url" content="https://acatarinaoaraujo.github.io/projects/mariojumpman">
+    <meta property="og:title" content="Mario Jumpman (My First App) | Ana Catarina O. Araujo | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/acatarinaoaraujo.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/tulip.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Mario Jumpman (My First App) | Ana Catarina O. Araujo | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Ana Catarina Oliveira Araújo</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Mario Jumpman (My First App)</h1>
+ <p><code class="language-plaintext highlighter-rouge">Language(s)</code>: Java</p>
+
+<p><code class="language-plaintext highlighter-rouge">Tools</code>: EZ</p>
+
+<h3 id="why-mario">Why Mario?</h3>
+
+<p>Playing Mario for the first time when I was around 7 years old is a vivid memory. It was the initial game I ever experienced. And when Professor Professor <a href="https://www.mindmeister.com/map/2671123807?t=8kkUtoEmru">Jason Leigh</a> introduced the final project for ICS 111, my immediate idea was to create a Mario-inspired game.</p>
+
+<h3 id="process">Process</h3>
+
+<p>To begin, the EZ documentation was collected, allowing for a thorough examination of the array of methods available. Subsequently, the chosen methods were utilized, such as utilizing the <code class="language-plaintext highlighter-rouge">wasKeyDown(char c)</code> function to determine key presses. The aim was to create a simplistic yet faithful representation of the original game, incorporating its graphics and core functionalities. After establishing the functionality, attention shifted towards the visual aspects of the game, involving the search for suitable images for characters, scenery, and font themes.</p>
+
+<p>Overall, familiarizing myself with the EZ documentation and Java programming language proved to be advantageous in terms of skill enhancement.</p>
+
+<h3 id="the-app">The App</h3>
+
+<ol>
+  <li>First image below shows Mario trying to get all the coins.</li>
+  <li>The second image shows mario after he was hit by the bullet. <strong>GAME OVER!</strong></li>
+</ol>
+
+<div class="text-center p-4">
+  <img width="300px" src="../img/projects/web/mariobros2.png" class="img-thumbnail" />
+  <img width="300px" src="../img/projects/web/mariobros3.png" class="img-thumbnail" />
+</div>
+
+<h3 id="some-ez-methods-used-in-the-game">Some EZ methods used in the game:</h3>
+
+<ul>
+  <li>
+    <p><em>pullToFront ()</em>: Pulls the given element to the front of the layer.
+We used this method for the bullet. The bullet moves in front of the
+wall and scenery in a random speed.</p>
+  </li>
+  <li>
+    <p><em>setMsg(String m)</em>: Displays a text to the given parameter.
+This method was used for the introduction and the end of the game.</p>
+  </li>
+  <li>
+    <p><em>wasKeyDown(char c)</em>: Checks if a key was pressed by the user at some point.
+After the introduction a key must be pressed in order to start the game.</p>
+  </li>
+  <li>
+    <p><em>isPointInElement(int x, int y)</em>: Checks if the x and y coordinates are within of an element.
+This method was the most important method besides EZ.initialize(). To make this game function
+properly we had to check if the main character, Mario, had close contact with the obstacles (bullets).</p>
+  </li>
+  <li>
+    <p><em>moveForward(double distance)</em>: Moves the element ahead by the given number (distance).
+Used to move the seamless background in order to make the game more realistic.</p>
+  </li>
+  <li>
+    <p><em>loop()</em>: plays a song from the start of the game to the end by repeating the song multiple times during the game.</p>
+  </li>
+</ul>
+
+<h3 id="links">Links</h3>
+<p>Source code is not available anymore.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
