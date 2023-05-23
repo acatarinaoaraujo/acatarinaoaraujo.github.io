@@ -19,6 +19,10 @@ labels:
 summary: The modern legislative tracker app, developed for the Hawaii Department of Education, streamlines the process of staying updated on upcoming hearings and writing testimonies. Through the integration of custom-built scrapers, the app ensures accurate and real-time information retrieval, facilitating efficient engagement with legislative matters.
 ---
 
+<div class="text-center p-4">
+ <img width="160px" class="img-fluid"  src="../img/projects/web/doelt-HACC-logo.png">
+</div>
+
 ```Language(s)```: Javascript, HTLM, CSS
 
 ```Frameworks/Libraries```: React.js, Meteor.js, Express.js, Bootstrap.
@@ -27,15 +31,8 @@ summary: The modern legislative tracker app, developed for the Hawaii Department
 
 
 ### Overview:
-<img width="160px" class="rounded float-start pe-4" src="../img/projects/web/doelt-HACC-logo.png">
+<img width="160px" class="rounded float-start pe-4" src="../img/projects/web/doelt-logo.png">
 The Hawaii Department of Education plays a vital role in advancing student achievement and maintaining educational excellence with a focus on equal access. To streamline legislative initiatives, the department currently relies on the IBM Lotus Notes system. Our application, DOE Legislative Tracker (DOELT), aims to modernize and enhance the outdated tracking system.
-
-<div class="ratio ratio-4x3 my-4">
-  <iframe src="https://www.youtube.com/watch?v=0rt54E251uU"
-          title="DOELT"
-          allowfullscreen>
-  </iframe>
-</div>
 
 ### How Does It Work
 To ensure real-time accuracy, DOELT utilizes a custom data scraper API that retrieves information directly from the Hawaii State Legislature site. The scraper API consists of three scrapers, gathering data from the "Advanced Reporting," individual bill/measure pages, and "Upcoming Hearings" sections. Through the "All Bills" page, users can access and save specific bills into the DOE's database. The "DOE Bills" page allows users to view, edit, and create detailed testimonies for the saved bills. The system tracks testimony statuses on the homepage and enables users to download testimonies as PDF files. Additionally, the "Calendar" page displays upcoming hearing information, enabling users to stay informed about important events.

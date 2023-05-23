@@ -5,7 +5,7 @@ image: img/projects/web/apms-cover.png
 title: APMS(Aircraft Phase Management System)
 permalink: projects/apms
 # All dates must be YYYY-MM-DD format!
-date: 2022-04-30
+date: 2023-04-30
 published: true
 labels:
   - Javascript
@@ -17,16 +17,15 @@ labels:
   - Agile Project Management
 summary: The PMI scheduler is a tool specifically designed to manage and track military aircraft during maintenance inspections, optimizing maintenance operations and ensuring timely and organized inspections.
 ---
+<div class="text-center p-4">
+ <img width="160px" class="img-fluid"  src="../img/projects/web/apms-defense.jpeg">
+</div>
 
 ```Language(s)```: Javascript, HTML, CSS
 
 ```Frameworks/Libraries```: React.js, Meteor.js, Bootstrap
 
 ```Database```: MongoDB
-
-<div class="text-center p-4">
- <img width="200px" class="img-fluid"  src="../img/projects/web/apms-defense.jpeg">
-</div>
 
 ### Current Problem
 
@@ -48,15 +47,10 @@ Our application prioritizes a user-friendly experience by considering the users'
 </div>
 
 <div class="text-center p-4">
- <img width="700px" class="img-fluid"  src="../img/projects/web/apms-calendar.png">
-
- <img width="700px" class="img-fluid"  src="../img/projects/web/apms-add-timeouts.png">
-
-<img width="700px" class="img-fluid"  src="../img/projects/web/apms-list-timeouts.png">
-
-<img width="700px" class="img-fluid"  src="../img/projects/web/apms-new-event-report.png">
-
-<img width="700px" class="img-fluid"  src="../img/projects/web/apms-import-file-csv.png">
+  <img width="700px" class="img-fluid"  src="../img/projects/web/apms-calendar.png">
+  <img width="700px" class="img-fluid"  src="../img/projects/web/apms-add-timeouts.png">
+  <img width="700px" class="img-fluid"  src="../img/projects/web/apms-list-timeouts.png">
+  <img width="700px" class="img-fluid"  src="../img/projects/web/apms-add-new-event-report.png">
 </div>
 
 Source code not available by project sponsors.
