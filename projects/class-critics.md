@@ -18,7 +18,10 @@ summary: A platform designed for students at UH to share their experiences and p
 ---
 
 ```Language(s)```: Javascript, HTLM, CSS
+
 ```Frameworks/Libraries```: React.js, Meteor.js, Semantic UI
+
+```Database```: MongoDB
 
 ### Overview
 

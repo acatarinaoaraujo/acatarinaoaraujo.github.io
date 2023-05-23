@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/projects/mobile/tip-calculator-icon.png
-title: Tip Calculator
+image: img/projects/mobile/tip-cover.png
+title: Mobile Tip Calculator (1st iOS App)
 permalink: projects/tip-calculator
 # All dates must be YYYY-MM-DD format!
 date: 2022-07-12
@@ -11,20 +11,21 @@ labels:
   - Swift 5
   - Xcode
   - iOS Development
-summary: This tip calculator is easy to use and straightforward. It works well for accurately calculating tips when dining out.
+summary: Designed for iOS devices, this tip calculator app offers a user-friendly and intuitive interface. It simplifies the process of calculating tips, making it convenient and reliable for accurately determining gratuity while dining out.
 ---
 
-This application is a tip calculator for iOS devices. It eliminates the unnecessary features of other tip calculator apps and offers simple and accurate computations. It allows a user to calculate the tip with the desired tip percentage and number of people which the bill will be split. 
+### Overview:
+<img width="300px" class="rounded float-start pe-4" src="../img/projects/mobile/tip-calculator-icon.png">
+The iOS tip calculator application is designed to simplify the process of calculating tips on iOS devices. By focusing on essential features and accurate computations, it provides a user-friendly experience. Users can input the desired tip percentage and the number of people sharing the bill to calculate the tip amount accurately.
 
-### What I Learned
-
-This app was created to get more experience using the storyboard, UIButton, UIStoryboardSegue, UIStepper, UITapGestureRecognizer and others.
-
-To see more about the app visit the link below:
-- [Source Code](https://github.com/acatarinaoaraujo/tip-calculator)
+### What I Learned:
+The development of this app served as a valuable learning experience in utilizing various iOS components such as storyboards, UIButtons, UIStoryboardSegue, UIStepper, UITapGestureRecognizer, and more. These experiences have enhanced my skills in iOS app development.
 
 <div class="text-center p-4">
   <img width="200px" src="../img/projects/mobile/tip-calculator.gif" class="img-thumbnail" >
-  <img width="200px" src="../img/projects/mobile/bill-info.png" class="img-thumbnail" >
+  <img width="200px" src="../img/projects/mobile/tip-bill-info.png" class="img-thumbnail" >
   <img width="200px" src="../img/projects/mobile/tip-result.png" class="img-thumbnail" >
 </div>
+
+To see more about the app visit the link below:
+- [Source Code](https://github.com/acatarinaoaraujo/tip-calculator)

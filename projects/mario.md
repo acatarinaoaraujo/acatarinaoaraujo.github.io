@@ -33,8 +33,8 @@ Overall, familiarizing myself with the EZ documentation and Java programming lan
 2. The second image shows mario after he was hit by the bullet. **GAME OVER!**
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/projects/web/mariobros2.png" class="img-thumbnail" >
-  <img width="400px" src="../img/projects/web/mariobros3.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projects/web/mariobros2.png" class="img-thumbnail" >
+  <img width="300px" src="../img/projects/web/mariobros3.png" class="img-thumbnail" >
 </div>
 
 

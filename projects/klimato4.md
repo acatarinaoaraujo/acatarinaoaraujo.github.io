@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/mobile/klimate4-icon.png
+image: img/projects/mobile/klimato-cover.png
 title: Klimato 4
 permalink: projects/klimato4
 # All dates must be YYYY-MM-DD format!
@@ -12,18 +12,19 @@ labels:
   - Xcode
   - iOS Development
   - OpenWeather API
-summary: Mobile application for iOS devices which allows users to see the forecast for any location on the globe. 
+summary: With detailed forecasts for the next four days, including four-hour intervals each day, Klimato 4 provides precise weather updates to help you plan and prepare effectively.
 ---
 
-It goes without saying that we all need to be aware of the weather. Klimato 4 is a very precise weather tool you'll ever need to navigate any weather situation, including snowstorms, strong winds, sun, and rain. The app provides information about the weather for the next 4 days, and for each day, it gives the weather forecast on 4 different hours of the day.
+### Overview
+<img width="300px" class="rounded float-start pe-4" src="../img/projects/mobile/klimate4-icon.png">
+Klimato 4 is a highly accurate weather tool that ensures you stay prepared for any weather condition. Whether it's a snowstorm, strong winds, sunshine, or rain, this app provides precise weather information. With forecasts for the next four days, it offers detailed hourly weather updates throughout each day. It's the ultimate weather companion to help you navigate any weather situation.
 
-The forecast has data about the population, coordinates, weather, and temperature of the location. This was made possible by using the [OpenWeather API](https://openweathermap.org/forecast5), where the forecast is available in JSON and XML format. 
+The forecast has data about the population, coordinates, weather, and temperature of the location. This was made possible by using the [OpenWeather API](https://openweathermap.org/forecast5), where the forecast is available in JSON and XML format.
 
 <div class="text-center p-4">
  <img width="300px" src="../img/projects/mobile/klimato-4.gif" class="img-thumbnail" >
-  <img width="300px" src="../img/projects/mobile/klimato-4-darkmode.png" class="img-thumbnail" >
+ <img width="300px" src="../img/projects/mobile/klimato-4-darkmode.png" class="img-thumbnail" >
 </div>
-
 
 ### What I Have Learned
 
@@ -35,21 +36,21 @@ The forecast has data about the population, coordinates, weather, and temperatur
 
 - **UISwitch**: The UISwitch specifies a method to regulate the switch's on/off state. The valueChanged event is triggered when the user moves the switch control just like with UISlider.
 
-- **Delegation**: A design pattern called delegation allows a class to "delegate" some of its duties to an instance of another class. One class transfers a responsibility to another class by delegating a job to that class. This allows the delegate to alter the base class. We may create code that is considerably simpler to reuse and maintain by removing the requirement that an object understand the concrete type of its owner. When a type needs to be used in numerous contexts and has a clear owner in each of those contexts, delegation is typically a viable option. 
+- **Delegation**: A design pattern called delegation allows a class to "delegate" some of its duties to an instance of another class. One class transfers a responsibility to another class by delegating a job to that class. This allows the delegate to alter the base class. We may create code that is considerably simpler to reuse and maintain by removing the requirement that an object understand the concrete type of its owner. When a type needs to be used in numerous contexts and has a clear owner in each of those contexts, delegation is typically a viable option.
 
 <div class="text-center p-4">
   <img width="300px" src="https://assets.alexandria.raywenderlich.com/books/ia/images/33862497382cb524694b7dc467ce2ef3ff3b032660e8faf2d2b33ba7e0864186/original.png" class="img-thumbnail" >
 </div>
 
-- **CLLocationManager**: We can request location permissions using CLLocationManager to get a user's location once, and when needed. 
+- **CLLocationManager**: We can request location permissions using CLLocationManager to get a user's location once, and when needed.
 
 ```swift
 extension WeatherViewController: CLLocationManagerDelegate {
-    
+
     @IBAction func locationPressed(_ sender: UIButton) {
         locationManager.requestLocation()
     }
-    
+
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             locationManager.stopUpdatingLocation()
@@ -61,7 +62,7 @@ extension WeatherViewController: CLLocationManagerDelegate {
 }
 ```
 
-- **Perform a URL Request with URLSession**: URLSession is a networking API for downloading data from and uploading data to endpoints denoted by URLs. 
+- **Perform a URL Request with URLSession**: URLSession is a networking API for downloading data from and uploading data to endpoints denoted by URLs.
 
 - **Parse JSON**: The JSON format (JavaScript Object Notation) is great for the exchange of data due to its easily readable text form. Data is represented via arrays {...} and lists [...]:
 
@@ -112,7 +113,7 @@ struct Weather: Codable {
 }
 ```
 
-
+### Links
 
 To see more about the app visit the link below:
 - [Source Code](https://github.com/acatarinaoaraujo/iOS-weather-app)
