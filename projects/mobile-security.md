@@ -20,29 +20,23 @@ summary: The objective of this research is to address inquiries regarding the ch
 The widespread prevalence of smartphones and tablets has led to society’s reliance on mobile devices for accessing resources and services through the use of mobile applications (apps). As part of their functionality, many apps process, store, and transmit sensitive data, such as personal, financial, and health data, among others. Hence, app developers must take the necessary precautions to protect their apps from malicious attacks and other vulnerabilities. Though research into software security, such as malware and vulnerabilities, is widespread, little is known about the challenges developers face in troubleshooting their mobile apps’ security-related issues in a practical setting. To this extent, this paper examines the mobile app security questions developers ask on Stack Overflow. Through a combination of quantitative and qualitative techniques, we show that Stack Overflow is a popular venue for developers to ask mobile app security questions, with most questions related to Android apps. Additionally, we present that questions typically fall into seven categories Secured Communications, Database, App Distribution Service, Encryption, Permissions, File-Specific, and General Security concerns. We envision findings from this study will better educate developers on potential areas of concern when implementing/maintaining their apps and empower the research/vendor community with constructing tools/techniques to help developers secure their apps.
 
 <div class="text-center p-4">
-<img width="500px" class="img-fluid" src="../img/projects/papers/ms-methodology.png">
-Fig. 1: Methodology
+<img width="700px" class="img-fluid" src="../img/projects/papers/ms-methodology.png">
 </div>
 
 <div class="text-center p-4">
-<img width="500px" class="img-fluid" src="../img/projects/papers/msecurity-logo.png">
-Fig. 2: Yearly growth of popular tags associated with mobile security questions.
+<img width="400px" class="img-fluid" src="../img/projects/papers/ms-tag-category.png">
 </div>
+Fig. 2: Breakdown of the volume of the instance for each category.
 
 <div class="text-center p-4">
-<img width="500px" class="img-fluid" src="../img/projects/papers/ms-tag-category.png">
-Fig. 3: Breakdown of the volume of the instance for each category.
+<img width="700px" class="img-fluid" src="../img/projects/papers/ms-7occuring.png">
 </div>
+Fig. 3: Top 7 frequently occuring unigrams, bigrams and trigrams in questions.
 
 <div class="text-center p-4">
-<img width="500px" class="img-fluid" src="../img/projects/papers/ms-7occuring.png">
-Fig. 4: Top 7 frequently occuring unigrams, bigrams and trigrams in questions.
+<img width="600px" class="img-fluid" src="../img/projects/papers/ms-topics.png">
 </div>
-
-<div class="text-center p-4">
-<img width="500px" class="img-fluid" src="../img/projects/papers/ms-topics.png">
-Fig. 5: Volume of each LDA topics and reviewed by authors, and a partial set of associate words.
-</div>
+Fig. 4: Volume of each LDA topics and reviewed by authors, and a partial set of associate words.
 
 To see our full project, click the link below:
 [Mobile Security Analysis PDF Project](https://github.com/acatarinaoaraujo/acatarinaoaraujo.github.io/blob/main/MobileSoft2023_SO_Mobile_Security.pdf)
