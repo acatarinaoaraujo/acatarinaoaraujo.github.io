@@ -26,17 +26,24 @@ The widespread prevalence of smartphones and tablets has led to society’s reli
 <div class="text-center p-4">
 <img width="400px" class="img-fluid" src="../img/projects/papers/ms-tag-category.png">
 </div>
+
+<div class="text-center p-4">
 Fig. 2: Breakdown of the volume of the instance for each category.
+</div>
 
 <div class="text-center p-4">
 <img width="700px" class="img-fluid" src="../img/projects/papers/ms-7occuring.png">
 </div>
+<div class="text-center p-4">
 Fig. 3: Top 7 frequently occuring unigrams, bigrams and trigrams in questions.
+</div>
 
 <div class="text-center p-4">
 <img width="600px" class="img-fluid" src="../img/projects/papers/ms-topics.png">
 </div>
+<div class="text-center p-4">
 Fig. 4: Volume of each LDA topics and reviewed by authors, and a partial set of associate words.
+</div>
 
 To see our full project, click the link below:
 [Mobile Security Analysis PDF Project](https://github.com/acatarinaoaraujo/acatarinaoaraujo.github.io/blob/main/MobileSoft2023_SO_Mobile_Security.pdf)

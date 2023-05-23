@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/papers/AI&ML/ai-methodology.png
+image: img/projects/AI&ML/ai-methodology.png
 title: Sentiment Analysis on AI Development (Reddit Corpus)
 permalink: projects/sentiment-analysis
 # All dates must be YYYY-MM-DD format!
@@ -48,7 +48,7 @@ It's challenging to make a conclusive statement about the best sentiment analysi
 ### Methods
 
 <div class="text-center p-4">
-<img width="600px" class="img-fluid" src="../img/projects/AI&ML/ai-methodology.png">
+<img width="500px" class="img-fluid" src="../img/projects/AI&ML/ai-methodology.png">
 </div>
 
 3.1 **Dataset**
@@ -56,7 +56,7 @@ It's challenging to make a conclusive statement about the best sentiment analysi
 To extract posts and comments from Reddit, we used the Python Reddit API Wrapper (PRAW), which is a Python package that allows for easy access to the Reddit API. We targeted popular subreddits related to AI and extracted the most recent posts and comments about AI using the PRAW's built-in search function. The subreddits selected were r/learnmachinelearning, r/AskReddit, r/science, r/todayilearned, r/news, r/askscience, r/nottheonion, r/technology, r/politics. A total of 50,798 posts and their corresponding comments were collected and saved in CSV files. The data was then imported and merged to create a DataFrame. Posts with less than 7 or more than 40 words were removed, resulting in a dataset of 30,773 posts.
 
 <div class="text-center p-4">
-<img width="600px" class="img-fluid" src="../img/projects/AI&ML/ai-categories.png">
+<img width="500px" class="img-fluid" src="../img/projects/AI&ML/ai-categories.png">
 </div>
 
 3.2 **Data Labeling**
@@ -76,7 +76,7 @@ The aim was to compare the performance of various machine learning algorithms, n
 
 <div class="text-center p-4">
 <img width="600px" class="img-fluid" src="../img/projects/AI&ML/ai-lstm-graphs.png">
-<img width="600px" class="img-fluid" src="../img/projects/AI&ML/ai-lstm-confusionmatrix.png">
+<img width="400px" class="img-fluid" src="../img/projects/AI&ML/ai-lstm-confusionmatrix.png">
 </div>
 
 On the other hand, the K-nearest neighbors and Random Forest algorithms performed the worst, with F1 scores of 0.29 and 0.42, respectively. This suggests that these algorithms were not
